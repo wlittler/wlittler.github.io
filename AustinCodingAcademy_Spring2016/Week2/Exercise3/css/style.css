@@ -3,6 +3,14 @@ section {
     
 }
 
+section#right {
+    color:red;
+    float: right;align-self: 
+}
+
+section#left {
+    float: left;
+}
 img {
     width: 100%;
         

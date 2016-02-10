@@ -8,12 +8,36 @@ header, nav, main, section, aside, footer {
     margin-top: 10px;
 }
 
+nav {
+    text-align: justify;
+    
+}
+
+nav a {
+    text-decoration: none
+}
+
+nav a:visited {
+    color: red
+    
+}
+
+nav a:hover {
+    color:black
+}
+
+h3 {
+    color: dodgerblue
+}
+
 section, aside {
     float: left;
 }
 
 section {
-    width: 70%
+    width: 70%;
+    text-align: justify;
+    hyphens: auto;
 }
 aside {
     width: 20%;

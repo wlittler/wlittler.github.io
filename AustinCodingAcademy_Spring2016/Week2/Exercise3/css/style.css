@@ -4,14 +4,30 @@ section {
 }
 
 section#right {
-    color:red;
-    float: right;align-self: 
+    float: right;
+    text-align: center;
+    background-color: rgb(240,240,240)
 }
 
 section#left {
     float: left;
+    color: #252b3b;
+    font-size: 1.9em;
 }
 img {
     width: 100%;
         
+}
+
+p {
+    color: #555;
+    padding-bottom: 20px;
+}
+
+button {
+    font-weight: bold;
+    color: #252b3b;
+    border: 2px solid #555;
+    padding: 5px;
+    text-decoration: none;
 }

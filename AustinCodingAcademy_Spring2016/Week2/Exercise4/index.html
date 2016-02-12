@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Ex4</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+
+<body>
+    <!-- Type selector-->
+
+    <p>This is a paragraph that contains <span>several span tags</span>. I'd like to style these span tags across my <span>entire site at once</span>, to establish a default site-wide format for them. The most efficient selector for this would be the <span>element selector</span>, as it will allow me to establish a base-line format for the span tag with a <span>low degree of specificity</span>. This means that the formatting will be controlled throughout the entire site with a single selector, and it will be <span>easy to overwrite in specific instances</span> where I want the styling to change.</p>
+
+
+    <!--Class selector-->
+
+    <h4>Targeting class attributes</h4>
+    <p>In this example I want to target specific class attribute values. Note how the styling is applied regardless of element type. <em class="highlight">Class selectors are also more specific than element selectors</em>, so they allow us to overwrite the more general styles of element selectors.</p>
+    <h4 class="highlight">Using class selectors</h4>
+    <p>They also allow us to target very specific locations or instances by simply applying a <strong class="highlight">class attribute</strong>. This is a great way to write styles for specific purposes with a single selector and then apply it whenever needed by adding the appropriate class attribute.</p>
+    <p>Care should be taken when using class selectors as overuse of them can bloat code and create stylesheets that are hard to maintain.</p>
+
+
+    <!--Id selector-->
+
+    <section id="overview">
+        <h4>Targeting ID attributes</h4>
+        <p>In this example I want to target specific ID attribute values. Note how the styling is applied regardless of element type. ID selectors are extremely specific, and will overwrite most selector types.</p>
+    </section>
+    <h4 id="strategy">Using ID selectors</h4>
+    <p>Many designers avoid using ID selectors and discourage their use in projects due to their highly specific nature. ID selector styling is very hard to overwrite later, and generic interface styling can fail if dropped into a region being controlled through ID selectors. Still, ID selectors can play an important role in styling sites. You simply need to develop clear rules for when they are appropriate to use and how they might impact future styles.</p>
+
+
+    <!--Descendent selector-->
+
+    <div id="ex4">
+        <h3>Example:</h3>
+        <section>
+            <h4>Targeting nested elements</h4>
+            <p>Descendent selectors allow us to be much more precise in terms of where styling is applied. Using them allows us to style elements a certain way when found inside a specific element type and another way if found elsewhere. This allows us to create discreet areas of styling in an efficient manner. <em>It also makes it easy to create self-contained elements</em>, as class and ID attributes can be used to identify specific UI elements that are styled with a combination of descendent selectors.</p>
+            <aside>
+                <h4>Strategies for descendent selectors</h4>
+                <p>Because descendent selectors are tied directly to the structure of your HTML, it&rsquo;s difficult to plan any effective strategy for using them without first understanding how your site&rsquo;s content will be structured. The main focus of any strategy outlining the use of descendent selectors should be to strike a balance between specificity and modularity. You want your selectors to properly style the targeted area, but not to the detriment of adding styles later that may need to overwrite these base styles. </p>
+                <p>Also, care should be taken to write descendent selectors as efficiently as possible. <em>Any selector that requires over three selectors to construct can probably be rewritten in a more efficient manner</em>.</p>
+            </aside>
+        </section>
+    </div>
+
+
+    <!--Child selector - Also known as Child Combinator-->
+
+    <section id="example">
+        <h4>H4 inside section</h4>
+        <p>Paragraph inside section</p>
+        <p>Paragraph inside section <span>-span text-</span></p>
+        <article>
+            <h4>H4 inside nested article</h4>
+            <p>Paragraph inside nested article <span>-span text-</span></p>
+        </article>
+    </section>
+
+    <!-- Psudo-class selector -->
+
+
+    <section>
+        <p>This paragraph contains an <a href="#">anchor</a></p>
+        <ul>
+            <li> Element 1</li>
+            <li> Element 2</li>
+            <li> Element 3</li>
+        </ul>
+    </section>
+</body>
+
+</html>

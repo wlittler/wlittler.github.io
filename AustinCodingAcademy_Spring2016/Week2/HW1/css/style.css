@@ -1,11 +1,19 @@
+* {
+    outline: 1px black solid;
+    margin: 0;
+    padding: 0;
+    
+}
+
 body {
     font-family: sans-serif;
+    width: 80%;
     
 
 }
 
 h1 {
-    font-weight: 100
+    font-weight: 100;
 }
 
 h2 {
@@ -17,7 +25,7 @@ h2 {
 }
 
 p {
-    font-size: 11px
+    font-size: 11px;
 }
 
 header {
@@ -33,11 +41,11 @@ header a {
 }
 
 #rwc {
-    display: inline;
+    
 }
 
 div#laptop {
-    float: right
+    float: right;
 }
 
 div#i7 {
@@ -60,17 +68,17 @@ span {
 #support {
     background-color: #f3f3f3;
     padding: 10px;
-    
+    float:left;
     
 
 }
 
 div#ssd {
-    float:left;
+/*    float: right;*/
     
 }
 
 div#arch {
     left: 500px;
-    float: right
+/*    float: right*/
 }

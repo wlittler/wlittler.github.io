@@ -1,0 +1,64 @@
+/* ex 1 */
+
+p {
+    color: orange;
+    font-size: 2rem;
+}
+
+p > span {
+    color: green;
+    text-decoration: line-through;
+}
+
+/* ex 2 */
+
+em.highlight {
+    background-color: hotpink;
+}
+
+h4.highlight {
+    font-size: 3em;
+}
+
+strong.highlight {
+    color:blue;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+/* ex 3 */
+
+#overview h4 {
+    font-family:monospace;
+}
+
+h4#strategy {
+    font-stretch: extra-condensed;
+}
+
+/* ex 4 */
+
+#ex4  aside  h4 {
+    color:purple;
+}
+
+/* ex 5 */
+
+#example > article > p {
+    color: pink;
+    font-size: 10px;
+}
+
+/* ex 6 */
+
+li:nth-child(2) {
+    color:blue;
+    font-size: 50px;
+}
+
+li:nth-child(3) {
+    color: cadetblue;
+    font-family:fantasy;
+}

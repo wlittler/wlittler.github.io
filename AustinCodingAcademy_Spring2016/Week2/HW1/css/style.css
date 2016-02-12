@@ -32,8 +32,8 @@ header a {
     
 }
 
-div#rwc {
-    
+#rwc {
+    display: inline;
 }
 
 div#laptop {
@@ -44,25 +44,33 @@ div#i7 {
     
 }
 
+#processor {
+    float: right;
+}
+
+#rwctext {
+    float:left;
+}
+
+
 span {
     font-size: 20px;
 }
 
-div#support {
+#support {
     background-color: #f3f3f3;
     padding: 10px;
+    
     
 
 }
 
 div#ssd {
     float:left;
-    position: relative;
     
 }
 
 div#arch {
-    position: relative;
     left: 500px;
     float: right
 }

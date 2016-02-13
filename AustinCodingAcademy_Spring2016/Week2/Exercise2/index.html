@@ -1,28 +1,32 @@
-div {
-    background-color: rgb(35, 52, 97);
-    width: 80%;
-    text-align: center;
-    
-}
+<!DOCTYPE html>
+<html>
 
-h1 {
-    font-weight: bold;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
+<head>
 
-p {
-    line-height: 14.5px;
-}
-
-a { 
-    
-    text-decoration: none;
-    font-weight: bold;
-
-}
-
-img {
-    height: 50%;
+    <title>TEMPLATE</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+        article #text {
+            color: #aaa;
+        }
         
-}
+        article div .expression {
+            color: #ccc;
+        }
+        
+        div p#text {
+            color: #0f0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <article>
+        <div>
+            <p id="text" class="expression">A general rule of thumb when declaring your css is to declare properties with the least specificity needed to style your elements.</p>
+        </div>
+    </article>
+</body>
+
+</html>

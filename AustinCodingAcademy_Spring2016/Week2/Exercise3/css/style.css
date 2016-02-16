@@ -1,19 +1,23 @@
+* {
+    outline: 1px solid red;
+}
+
 section {
     width: 500px;
     
 }
 
-section#right {
-    float: right;
+#right {
+    width:50%;
     text-align: center;
-    background-color: rgb(240,240,240)
+    background-color: rgb(240,240,240);
+    }
+
+#left {
+    width:50%;
+    
 }
 
-section#left {
-    float: left;
-    color: #252b3b;
-    font-size: 1.9em;
-}
 img {
     width: 100%;
         
@@ -30,4 +34,15 @@ button {
     border: 2px solid #555;
     padding: 5px;
     text-decoration: none;
+}
+
+main {
+    width:100%;
+    margin: auto;
+    display: inline;
+}
+
+h2#berries {
+    color: #252b3b;
+    font-size: 1.9em;
 }

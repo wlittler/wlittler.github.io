@@ -16,7 +16,7 @@
                 background-color: #bcd2d0;
                 float: left;
                 margin: 10px 25px 10px 10px;
-                width: 250px;
+                width: 205px;
                 height: 300px;
             }
             
@@ -26,11 +26,12 @@
         <h1>Column Collapse</h1>
         <p>The sum of the dimension and margin of the 4 elements is greater than the dimension the parent element has, making the fourth element break to a new line. If we either decrease the dimension of the child element or increase the parent's dimension could the fourth element fit in the same row.</p>
         <p>Modify the CSS above so that all of the child elements can fit in the same row.</p>
+        <p>205px is the maximum width until the fourth container will move down to the next row. If the body width is 960px, why can the sum of the children only be 820px? Where are the other 140px going? Duh. Side margins are 35 per div, 35 x 4 = 140. Dummy dumkins.</p>
         <hr/>
         <div class="parent-container"> 
             <div class="child-container">First</div>
             <div class="child-container">Second</div>
-            <div class="child-container">Thrid</div>
+            <div class="child-container">Third</div>
             <div class="child-container">Fourth</div>
         </div>
     </body>

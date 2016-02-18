@@ -14,3 +14,8 @@
 .badtext {
     color:red;
 }
+
+img {
+    border-style: ridge;
+    border-color:cornflowerblue;
+}

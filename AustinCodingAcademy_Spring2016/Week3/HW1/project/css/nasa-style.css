@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+}
+
+#NASA {
+    
+    background-image:url(/AustinCodingAcademy_Spring2016/Week3/HW1/project/img/nasa-background.jpg);
+    width: 850px;
+    height: 450px;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+
+div#NASA > h1 {
+    font-size: 5em;
+    font-weight: 700;
+}
+
+
+#contact {
+    background-color: #E6E6E6;
+    height: 324px;
+    width: 850px;
+}
+
+div#contact > div {
+    float:left;
+    width:250px;
+    margin-top:20px;
+    margin-left:20px;
+    
+}
+
+span {
+    font-weight: 800; 
+    font-size: 1.1em; 
+}
+
+p {
+    font-weight: 500;
+    line-height: 25px;
+}
+
+
+input, textarea {
+    border: none; 
+}
+
+button {
+    margin-top:10px;
+    background-color: #4d4d4d;
+    color: white;
+    width:80px;
+    height: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    
+}
+
+/* I really want to apply this but it pulls the form up towards the div head! Help! I want the space between the titles and the boxes to be smaller. How I do this>?!>
+*/
+
+/*
+#contactus p {
+    line-height:normal;
+}*/

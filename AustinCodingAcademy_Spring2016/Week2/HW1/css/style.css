@@ -8,8 +8,19 @@
 body {
     font-family: sans-serif;
     width: 80%;
-    
 
+}
+
+.floatL {
+    float: left;
+}
+
+.clear {
+    clear:both;
+}
+
+div {
+/*    float: left;*/
 }
 
 h1 {
@@ -41,11 +52,11 @@ header a {
 }
 
 #rwc {
-    
+    width: 50%;
 }
 
 div#laptop {
-    float: right;
+/*    float: right;*/
 }
 
 div#i7 {
@@ -57,7 +68,7 @@ div#i7 {
 }
 
 #rwctext {
-    float:left;
+/*    float:left;*/
 }
 
 
@@ -68,7 +79,8 @@ span {
 #support {
     background-color: #f3f3f3;
     padding: 10px;
-    float:left;
+/*    float:left;*/
+    clear: both;
     
 
 }

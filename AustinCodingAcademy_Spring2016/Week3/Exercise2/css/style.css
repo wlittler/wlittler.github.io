@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: rgb(108,135,178);
+}
+body {
+    width: 600px;
+    background: #fff;
+    margin: 0 auto;
+    font: 90% Georgia, "Times New Roman", Times, serif;
+}
+div {
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    float:left;
+}
+section {
+    background: rgb(178,155,107);
+    border: 1px solid black;
+    padding: 10px;
+}
+.one {
+    background: rgb(207, 255, 245);
+}
+.two {
+    background: rgb(101,209,255);
+}
+.three {
+    background: rgb(255, 231, 181);
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}

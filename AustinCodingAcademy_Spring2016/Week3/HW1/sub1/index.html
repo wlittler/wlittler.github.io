@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Container Collapse</title>
+        <style>
+            html {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .parent-container {
+                background-color: dodgerblue;
+                clear: both;
+            }
+            
+            hr { clear: both;}
+            .child-container {
+                background-color: darkgoldenrod;
+                width: 100px;
+                height: 100px;
+                margin: 20px;
+                
+            }
+            
+            .floating {
+                float: left;
+            }
+            
+            /*Hint: Implement the class that can fix container collapse*/
+        </style>
+    </head>
+    <body>
+        <h1>Container Collapse</h1>
+        <h3>Parent container with two childs not floating. The parent see them, that why you can see a blue background</h3>
+        <div class="parent-container">
+            <div class="child-container"></div>
+            <div class="child-container"></div>
+        </div>
+        <hr>
+        <h3>Parent container with two childs floating. The parent does not see them collapsing and having no dimensions, that why you can't see a blue background. Please fix it so it looks like the one on the bottom</h3>
+        <div class="parent-container">
+            <div class="child-container floating"></div>
+            <div class="child-container floating"></div>
+        </div>
+        <hr>
+        <h3>Parent container with two childs floating. The parent has the clearfix class allowing to see the childs out of the normal document flow, that's why you can see the blue background</h3>
+        <!-- Hint: Add the class that implements a way to fix container collapse -->
+        <div class="parent-container">
+            <div class="child-container floating"></div>
+            <div class="child-container floating"></div>
+        </div>
+    </body>
+</html>

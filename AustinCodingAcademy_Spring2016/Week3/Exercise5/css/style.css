@@ -1,0 +1,25 @@
+html {
+    background: #ccc;
+}
+
+ div, p {
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    width: 500px;
+    margin: 0 auto;
+    background: #9CF;
+}
+
+.box {
+    background: #B7D19C;
+    width: 400px;
+    margin: 50px;
+}
+
+p {
+    background: #FF9;
+    height: 100%;
+}

@@ -1,0 +1,29 @@
+html {
+    background: #ccc;
+}
+
+div, p {
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    background: #9CF;
+    padding: 1px;
+}
+
+.box {
+    margin: 20px;
+    padding: 10px;
+    border: 5px dashed brown;
+    background-color: yellow;
+    border-radius: 20%;
+}
+
+p {
+    background: #EEA458;
+    height: 100%;
+}

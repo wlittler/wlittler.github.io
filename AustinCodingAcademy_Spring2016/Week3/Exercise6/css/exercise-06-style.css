@@ -1,0 +1,36 @@
+/*Add CSS rules*/
+
+h4 {
+    text-transform: uppercase;
+}
+
+main {
+    width: 100%;
+    font-family: "Helvetica", sans-serif;
+}
+
+section {
+    float: left;
+    width: 23.333333%;
+    padding: 5%;
+}
+
+div {
+    margin-bottom: 8%;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    text-transform: uppercase; 
+    padding: 3% 5%;
+    border-right: red solid 4px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: purple;
+    transition: 2s;
+}

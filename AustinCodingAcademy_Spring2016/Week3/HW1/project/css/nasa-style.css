@@ -1,15 +1,19 @@
 body {
     font-family: sans-serif;
+    margin: 0 auto;
+    width: 80%;
 }
 
+/*
 .marginbear {
     
     margin: 0% 15% 0% 15%;
 }
+*/
 
 #NASA {
     
-    background-image:url(/AustinCodingAcademy_Spring2016/Week3/HW1/project/img/nasa-background.jpg);
+    background-image:url(../img/nasa-background.jpg);
     width: 850px;
     height: 450px;
     color: white;

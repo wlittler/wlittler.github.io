@@ -18,6 +18,7 @@
 .badtext {
     color: red;
 }
+/* Animation Target */
 #me {
     animation-name: voila;
     animation-duration: 4s;
@@ -35,12 +36,16 @@ img {
     border-style: ridge;
     border-color: cornflowerblue;
 }
+/* Animation Target */
 header > p {
     color: black;
     animation-name: appear;
     animation-duration: 8s;
 }
 
+.week > h2 {
+    text-align: center;
+}
 /* The animation code */
 
 @keyframes appear {

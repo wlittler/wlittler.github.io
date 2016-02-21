@@ -15,7 +15,40 @@
     color:red;
 }
 
+header {
+    align-content: center;
+    text-align: center;
+/*    display: none;*/
+}
+
 img {
     border-style: ridge;
     border-color:cornflowerblue;
 }
+
+/* The animation code */
+@keyframes appear {
+    from {color: white;}
+    to {color: gray;}
+}
+
+@keyframes voila {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+/* The element to apply the animation to */
+
+header > p {
+    color: black;
+    animation-name: appear;
+    animation-duration: 4s;
+}
+
+#me {
+    animation-name: voila;
+    animation-duration: 4s;
+    opacity: 1; 
+
+}
+

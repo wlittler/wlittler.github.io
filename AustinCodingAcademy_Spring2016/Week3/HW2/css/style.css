@@ -1,0 +1,80 @@
+#middle {
+    height:50%;
+}
+
+#left {
+    margin-right: 3%;
+    padding: 1%;
+
+}
+
+#bottom > div {
+    float: left;
+    margin: 2%;
+/*    align-items: center;*/
+}
+
+#right div:nth-child(2) {
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.third {
+    height:30%
+}
+
+.half {
+    width:45%;
+    float:left;
+    height: 50%;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.greyback {
+    background-color: #f7f7f7;
+}
+
+.rightsub {
+    padding: 2%;
+}
+
+.rightsub > img {
+    float: left;
+    width: 30%;
+}
+
+body {
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    height:25%;
+    
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height:25%;
+}
+
+a {
+    float: right;
+}
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit.         Donec efficitur, mi quis facilisis fringilla, enim purus lacinia nunc, volutpat vulputate ante libero vitae velit. Nulla faucibus, arcu id egestas tempus, sapien diam congue lacus, sit amet porta quam diam vel nisl. Praesent vitae convallis erat, a tempus elit. Vivamus sit amet leo euismod, tristique lacus a, ornare magna. */

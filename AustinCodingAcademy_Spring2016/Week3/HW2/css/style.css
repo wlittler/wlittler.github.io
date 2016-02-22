@@ -1,5 +1,6 @@
 #middle {
-    height:50%;
+    height:380px;
+    margin:10px;
 }
 
 #left {
@@ -51,6 +52,12 @@
     width: 30%;
 }
 
+/*
+main {
+    height:100%;
+}
+*/
+
 body {
     width:100%;
     margin: 0;
@@ -60,7 +67,8 @@ body {
 
 header {
     text-align: center;
-    height:25%;
+    height:180px;
+    margin: 10px;
     
 }
 
@@ -68,7 +76,8 @@ footer {
     text-align: center;
     align-items: center;
     align-content: center;
-    height:25%;
+    height:180px;
+    margin:10px;
 }
 
 a {

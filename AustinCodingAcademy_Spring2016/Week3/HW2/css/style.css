@@ -1,12 +1,25 @@
 #middle {
-    height:380px;
+/*
+    height:300px;
     margin:10px;
+*/
+
 }
 
 #left {
+    height:280px;
+    width:330px;
+    margin-right:20px;
+    padding: 10px;
+/*
     margin-right: 3%;
     padding: 1%;
+*/
 
+}
+
+#left > img {
+    width:100%;
 }
 
 #bottom > div {
@@ -16,18 +29,14 @@
 }
 
 #right div:nth-child(2) {
-    margin-bottom: 3%;
-    margin-top: 3%;
-}
-
-.third {
-    height:30%
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .half {
-    width:45%;
+/*    width:45%;*/
     float:left;
-    height: 50%;
+/*    height: 50%;*/
 }
 
 .clearfix:after {
@@ -44,7 +53,9 @@
 }
 
 .rightsub {
-    padding: 2%;
+    padding:10px;
+    height:70px;
+    width:300px;
 }
 
 .rightsub > img {
@@ -58,31 +69,36 @@ main {
 }
 */
 
+a {
+    float: right;
+}
+
 body {
-    width:100%;
-    margin: 0;
+/*    width:100%;*/
+    margin: auto;
     padding: 0;
     font-family: sans-serif;
 }
 
-header {
-    text-align: center;
-    height:180px;
-    margin: 10px;
-    
-}
-
 footer {
-    text-align: center;
-    align-items: center;
-    align-content: center;
+/*    text-align: center;*/
+/*    align-items: center;*/
+/*    align-content: center;*/
     height:180px;
     margin:10px;
 }
 
-a {
-    float: right;
+header {
+    text-align: center;
+/*    height:180px;*/
+    margin: 10px;
+    
 }
+
+p {
+    font-size: 1em;
+}
+
 
 
 

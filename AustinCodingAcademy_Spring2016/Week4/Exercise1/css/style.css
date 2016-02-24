@@ -1,0 +1,79 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+p, h1, a {
+    font-family: sans-serif;
+    color: white;
+    line-height: 3.2;
+}
+
+div h1 {
+    text-transform: uppercase;
+}
+
+.garden p:nth-child(1) {
+    text-transform: uppercase;
+}
+
+.garden p:nth-child(2) {
+    text-transform: lowercase;
+}
+
+.garden {
+    background-image: url(../img/1.jpg);
+    text-align: center;
+    background-size: cover;
+    
+}
+
+.garden > div {
+    background-color: rgba(0,0,0, .5);
+    padding: 100px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#uno {
+    background-image: url(../img/featured-image-3.jpg);
+    background-size: cover;
+}
+
+#dos {
+    background-image: url(../img/featured-image-4.jpg);
+    background-size: cover;
+    margin-top: 8%;
+}
+
+#tres {
+    background-image: url(../img/featured-image-5.jpg);
+    background-size: cover;
+    width: 68%;
+    float:left;
+    margin-left: 2%;
+}
+
+.opacity > div {
+    background-color: rgba(0,0,0, .5);
+    padding: 100px;
+}
+
+.opacity {
+    width: 100%;
+}
+
+.left {
+    float: left;
+    width=30%;
+}
+
+main {
+    
+}

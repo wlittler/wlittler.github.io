@@ -1,7 +1,6 @@
 #middle {
 width:690px;
     margin: 10px;
-
 }
 
 #left {
@@ -9,7 +8,6 @@ width:690px;
     width:330px;
     margin-right:20px;
     padding: 10px;
-
 }
 
 #bottom {
@@ -117,7 +115,14 @@ p, li, a {
     font-size: .7em;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
-
+li:before {
+    content: "🚀";
+}
 
 /* Lorem ipsum dolor sit amet, consectetur adipiscing elit.         Donec efficitur, mi quis facilisis fringilla, enim purus lacinia nunc, volutpat vulputate ante libero vitae velit. Nulla faucibus, arcu id egestas tempus, sapien diam congue lacus, sit amet porta quam diam vel nisl. Praesent vitae convallis erat, a tempus elit. Vivamus sit amet leo euismod, tristique lacus a, ornare magna. */

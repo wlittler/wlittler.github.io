@@ -41,6 +41,12 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    color: #96AC23;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
 #uno {
     background-image: url(../img/featured-image-3.jpg);
     background-size: cover;
@@ -71,9 +77,28 @@ h1 {
 
 .left {
     float: left;
-    width=30%;
+    width:30%;
 }
 
-main {
+.main {
+
+    height:500px;
     
+}
+
+.clicker {
+    
+    padding: 15px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.grey {
+    background-color: #3F3A34;
+}
+
+.trans {
+    border: 1px solid white;
+}
+
 }

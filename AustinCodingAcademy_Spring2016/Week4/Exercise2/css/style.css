@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Bell;
+    src: url(../fonts/BELL.TFF);
+}
+
+h1 {
+
+font-family: 'Monofett', cursive;
+    
+    }
+
+p {
+    font-family: Bell, serif;
+}

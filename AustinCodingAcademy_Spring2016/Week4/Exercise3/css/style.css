@@ -1,0 +1,71 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    padding: 2% 1%;
+    width: 98%; 
+}
+
+h1 {
+    font-size: 25px;
+    float: left;
+}
+
+nav li{
+    display: inline-block;
+    
+}
+
+nav ul {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #9799A8;
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+main {
+    background-image: url(../img/wine-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+main > div {
+    background-color: rgba(0,0,0,.6);
+    padding: 200px 0;
+}
+
+.two_boxes {
+    width: 100%;
+}
+
+.two_boxes div {
+    float: left;
+}
+
+.two_boxes > div:first-child {
+    width: 60%;
+}
+
+.two_boxes > div:nth-child(2) {
+    width: 40%;
+}
+
+.two_boxes img {
+    width: 70%;
+    margin-left: 15%;
+}

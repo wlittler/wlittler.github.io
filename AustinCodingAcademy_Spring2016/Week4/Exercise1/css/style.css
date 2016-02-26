@@ -7,6 +7,10 @@
     visibility: hidden;
 }
 
+body {
+    margin: 0 auto;
+}
+
 p, h1, a {
     font-family: sans-serif;
     color: white;
@@ -50,12 +54,14 @@ h2 {
 #uno {
     background-image: url(../img/featured-image-3.jpg);
     background-size: cover;
+    max-width: 600px;
 }
 
 #dos {
     background-image: url(../img/featured-image-4.jpg);
     background-size: cover;
     margin-top: 8%;
+    max-width: 600px;
 }
 
 #tres {
@@ -64,15 +70,23 @@ h2 {
     width: 68%;
     float:left;
     margin-left: 2%;
+    min-height: 740px;
+    
 }
 
 .opacity > div {
     background-color: rgba(0,0,0, .5);
+
     padding: 100px;
+}
+
+#tres > div {
+        padding: 200px 100px 183px 100px;
 }
 
 .opacity {
     width: 100%;
+    height: 100%;
 }
 
 .left {
@@ -81,8 +95,9 @@ h2 {
 }
 
 .main {
-
-    height:500px;
+    
+/*    height:500px;*/
+    margin: 0 1%;
     
 }
 

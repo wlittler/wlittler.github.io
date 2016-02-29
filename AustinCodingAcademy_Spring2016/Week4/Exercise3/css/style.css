@@ -9,10 +9,13 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: auto 2%; 
 }
 
+/* Navbar */
+
 nav {
-    padding: 2% 1%;
+    padding: 1% 1%;
     width: 98%; 
 }
 
@@ -37,17 +40,40 @@ a {
     font-size: .75em;
 }
 
-main {
+/* 1st opaque section */
+
+#top {
     background-image: url(../img/wine-bg.jpg);
+}
+
+.opaque {
     background-size: cover;
     text-align: center;
     color: white;
 }
-
-main > div {
-    background-color: rgba(0,0,0,.6);
+#top > div {
     padding: 200px 0;
 }
+
+.opacity {
+    background-color: rgba(0,0,0,.8);
+}
+#top > div > p {
+    font-style: italic;
+    margin-top: 10%;
+}
+
+
+span {
+    font-style: normal;
+}
+
+h2 {
+    font-size: 3em; 
+    
+}
+
+/* Middle Section */
 
 .two_boxes {
     width: 100%;
@@ -57,8 +83,16 @@ main > div {
     float: left;
 }
 
+ h3 {
+    padding: 7%;
+    font-size: 1.3em;
+}
+
 .two_boxes > div:first-child {
     width: 60%;
+    text-align: center;
+    padding: 9.5% 0;
+
 }
 
 .two_boxes > div:nth-child(2) {
@@ -68,4 +102,36 @@ main > div {
 .two_boxes img {
     width: 70%;
     margin-left: 15%;
+}
+
+.grey {
+    color: #D4D4D4;
+}
+
+p { 
+    font-size: .8em;
+}
+
+h3 {
+    font-weight: 700;
+    font-style: italic;
+    
+}
+
+/* 2nd opaque section */
+
+#second {
+    background-image: url(../img/wine13.jpg);
+}
+
+#second > div {
+    padding: 50px 0;
+}
+
+#second div > p {
+    padding: 0% 10%;
+}
+
+#second div h3 {
+    padding: 6%
 }

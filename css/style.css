@@ -9,40 +9,69 @@
 
 .main {
     margin: 10% auto;
-    width: 90%
+    width: 90%;
 }
 
 .week {
     float: left;
-    margin-right: 5%;
-    outline: 2px dashed grey;
+    margin: 5%;
     padding: 1%;
 }
+
+/* Dropdown menu */
+
+.dropdown {
+    position: relative:
+    display: inline-block;
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* End Dropdown */
+
 .striker {
     text-decoration: line-through;
 }
+
 .badtext {
     color: red;
 }
+
 /* Animation Target */
+
 #me {
     animation-name: voila;
     animation-duration: 4s;
     opacity: 1;
 }
+
 body {
     width: 100%;
 }
+
 header {
-    align-content: center;
     text-align: center;
-    /*    display: none;*/
 }
+
 img {
     border-style: ridge;
     border-color: cornflowerblue;
 }
+
 /* Animation Target */
+
 header > p {
     color: black;
     animation-name: appear;
@@ -52,6 +81,7 @@ header > p {
 .week > h2 {
     text-align: center;
 }
+
 /* The animation code */
 
 @keyframes appear {

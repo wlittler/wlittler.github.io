@@ -102,6 +102,7 @@ h2 {
 .two_boxes img {
     width: 70%;
     margin-left: 15%;
+    margin-bottom: -5px;
 }
 
 .grey {
@@ -113,7 +114,7 @@ p {
 }
 
 h3 {
-    font-weight: 700;
+    font-weight: 900;
     font-style: italic;
     
 }
@@ -134,4 +135,34 @@ h3 {
 
 #second div h3 {
     padding: 6%
+}
+
+/* Bottom section */
+
+#bottom > div {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#bottom img {
+    height:200px;
+}
+
+h4 {
+    font-weight: 700;
+    font-style: italic;
+}
+
+#bottom p {
+    padding: 2%;
+    font-size: .7em;
+}
+
+#bottom a {
+    background-color: #91A05D;
+    padding: 1% 5%;
+    color: #D9E0BF;
+    font-size: .7em;
 }

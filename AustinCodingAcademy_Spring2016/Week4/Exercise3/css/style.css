@@ -85,7 +85,8 @@ h2 {
 
  h3 {
     padding: 7%;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    font-family: serif;
 }
 
 .two_boxes > div:first-child {
@@ -103,6 +104,10 @@ h2 {
     width: 70%;
     margin-left: 15%;
     margin-bottom: -5px;
+}
+
+.two_boxes p {
+    padding: 0% 10%;
 }
 
 .grey {
@@ -130,11 +135,11 @@ h3 {
 }
 
 #second div > p {
-    padding: 0% 10%;
+    padding: 0% 10% 2% 10%;
 }
 
 #second div h3 {
-    padding: 6%
+    padding: 3% 6%;
 }
 
 /* Bottom section */

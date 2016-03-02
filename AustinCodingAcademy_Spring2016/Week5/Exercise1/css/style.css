@@ -1,0 +1,145 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto 2%; 
+}
+
+span {
+    font-style: italic;
+}
+
+/* Navbar */
+
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color:black;
+}
+
+nav {
+    margin-bottom: 1%;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+.opacity {
+    background-color: rgba(0,0,0,.6);
+    padding: 10%;
+}
+
+.color_main {
+    color: #FF851E;
+}
+
+.color_2nd {
+    color: #FFAE6A;
+}
+
+.color_3rd {
+    color: #7F5735;
+}
+
+/* Title section */
+
+.title {
+    text-align: center;
+    background-image: url(../img/running_man.jpg);
+    background-size:cover;
+    background-position: bottom;
+    
+}
+
+h2 { 
+font-size: 3em;
+    padding: 10% 0% 2% 0%;
+/*    color: #FF851E;*/
+}
+
+.title p {
+    font-size: 1.5em;
+    margin-bottom: 3%;
+/*    color: #FFAE6A;*/
+}
+
+.title a {
+    padding: 2% 5%;
+    background-color: rgba(127,87,53,.6);
+    text-decoration: none;
+}
+
+.title a:link {
+    color: aliceblue;
+}
+
+.title a:visited {
+    color:aliceblue;
+}
+.title a:hover {
+    
+}
+
+/* 2nd section, w/ left image */
+
+#left_img {
+    margin: 4% 0% 2% 0%;
+}
+
+#left_img img {
+width: 100%;
+}
+
+#left_img h3 {
+    font-size: 1.5em;
+    color: #FF851E;
+    margin-bottom: 3%;
+}
+
+#left_img div:nth-child(1) {
+    float: left;
+    width: 20%;
+    margin: 0% 2%;
+}
+
+#left_img div:nth-child(2) {
+    float: right;
+    width: 76%;
+    text-align: center;
+}
+
+#left_img p {
+    width: 80%;
+}
+
+.blood {
+    background-image: url(../img/blood2.png);
+/*    background-position:*/
+    background-repeat: no-repeat;
+/*    background-size: contain;*/
+/*    background-origin: border-box;*/
+}

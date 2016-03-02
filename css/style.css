@@ -41,6 +41,24 @@
 
 /* End Dropdown */
 
+/* Hidden Snoopdog */
+
+.snoop {
+    position: relative;
+    display: inline-block;
+}
+
+.snoop:hover .dancer {
+    display: block;
+}
+
+.dancer {
+    display:none;
+    
+}
+
+/* End Hidden Snoopdog */
+
 .striker {
     text-decoration: line-through;
 }

@@ -215,7 +215,8 @@ width: 100%;
 }
 
 #testimonials span {
-    
+    float: right;
+    margin-top: 2%;
 }
 
 #testimonials img {

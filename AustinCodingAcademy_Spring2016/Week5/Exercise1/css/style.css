@@ -127,7 +127,7 @@ font-size: 3em;
     margin-bottom: -5px;
 }
 
-nav a:hover + div {
+#world_domination > div:hover + div {
     display: block;
 }
 

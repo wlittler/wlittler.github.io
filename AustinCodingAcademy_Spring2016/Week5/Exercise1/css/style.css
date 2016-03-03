@@ -7,13 +7,27 @@
     visibility: hidden;
 }
 
+/* General Attributes */
+
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: auto 2%; 
+    margin: 2% 2%; 
 }
 
 span {
     font-style: italic;
+}
+
+.color_main {
+    color: #FF851E;
+}
+
+.color_2nd {
+    color: #FFAE6A;
+}
+
+.color_3rd {
+    color: #7F5735;
 }
 
 /* Navbar */
@@ -24,6 +38,10 @@ nav a:link {
 
 nav a:visited {
     color:black;
+}
+
+nav a:hover {
+    color: #7F5735;
 }
 
 nav {
@@ -45,24 +63,12 @@ li {
 
 nav a {
     text-decoration: none;
-    margin-left: 1%;
+    margin: 0%;
 }
 
 .opacity {
     background-color: rgba(0,0,0,.6);
     padding: 10%;
-}
-
-.color_main {
-    color: #FF851E;
-}
-
-.color_2nd {
-    color: #FFAE6A;
-}
-
-.color_3rd {
-    color: #7F5735;
 }
 
 /* Title section */
@@ -72,6 +78,7 @@ nav a {
     background-image: url(../img/running_man.jpg);
     background-size:cover;
     background-position: bottom;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     
 }
 
@@ -91,6 +98,7 @@ font-size: 3em;
     padding: 2% 5%;
     background-color: rgba(127,87,53,.6);
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .title a:link {
@@ -101,45 +109,121 @@ font-size: 3em;
     color:aliceblue;
 }
 .title a:hover {
-    
+    background-color: rgba(127,87,53,.7);
 }
 
-/* 2nd section, w/ left image */
+/* Hidden Feature */
 
-#left_img {
+#Pinky {
+    display: none;
+    position:fixed;
+    right: 20%; 
+    top: 20%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#Pinky iframe {
+    margin-bottom: -5px;
+}
+
+nav a:hover + div {
+    display: block;
+}
+
+/* Main Feature */
+
+#main {
     margin: 4% 0% 2% 0%;
 }
 
-#left_img img {
+#main img {
 width: 100%;
+    margin-bottom: -6%;
 }
 
-#left_img h3 {
+#main h3 {
     font-size: 1.5em;
+/*    font-weight: ;*/
     color: #FF851E;
     margin-bottom: 3%;
 }
 
-#left_img div:nth-child(1) {
+#main div:first-child {
     float: left;
     width: 20%;
     margin: 0% 2%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-#left_img div:nth-child(2) {
+#main div.blood {
     float: right;
-    width: 76%;
+    width: 75%;
     text-align: center;
 }
 
-#left_img p {
+#main p {
     width: 80%;
 }
 
 .blood {
-    background-image: url(../img/blood2.png);
-/*    background-position:*/
+    background-image: url(../img/bloodpaws.png);
+    background-position: 100% 10%;
     background-repeat: no-repeat;
-/*    background-size: contain;*/
+    background-size:auto;
 /*    background-origin: border-box;*/
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: rgba(127,87,53,.7);
+    padding: 2px;
+}
+
+/* 4x Featured Content */
+
+#features4x {
+    text-align: center;
+}
+
+.feature {
+    float: left;
+    width: 20%;
+    margin: 2% 2%;
+}
+
+.feature > img {
+    width: 100%;
+}
+
+.feature > h4 {
+    font-size: 1.1em;
+    margin-bottom: 5%;
+}
+
+.feature > p {
+    font-size: .8em;
+}
+
+/* Testimonials */
+
+#testimonials {
+     text-align: center;
+}
+
+#testimonials div {
+    width: 40%;
+    float: left;
+    margin: 2% 4%;
+}
+
+#testimonials span {
+    
+}
+
+#testimonials img {
+    width: 100%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#testimonials p {
+    font-size: .8em;
+    margin: 4% 0%;
 }

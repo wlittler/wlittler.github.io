@@ -1,0 +1,71 @@
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+/* Main */
+
+main {
+margin: auto 0%;
+}
+
+/* Title */
+
+#title {
+    color:white;
+    background-color:black;
+}
+
+h1 {
+    font-weight: 100;
+    padding: .5%;
+}
+
+/* Title Image */
+
+#titleimg img {
+    width: 100%;
+    margin-top: -2%;
+/*    max-height: 350px;*/
+}
+
+/* Content */
+
+#content {
+    padding: 0% 15%;
+    margin: 5% 0%;
+}
+
+#content p {
+    text-align: left;
+}
+
+#content h2 {
+    font-weight: 400;
+    font-size: 2em;
+}
+
+/* Three Images */
+
+
+.img {
+    float: left;
+    width: 20%;
+    margin: 5% 5% 5% 7%;
+    
+}
+
+.img img {
+    width: 100%;
+    max-height: 210px;
+    max-width: 250px;
+}

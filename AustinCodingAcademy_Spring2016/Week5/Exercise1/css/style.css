@@ -94,7 +94,7 @@ font-size: 3em;
 /*    color: #FFAE6A;*/
 }
 
-.title a {
+.button {
     padding: 2% 5%;
     background-color: rgba(127,87,53,.6);
     text-decoration: none;
@@ -117,8 +117,8 @@ font-size: 3em;
 #Pinky {
     display: none;
     position:fixed;
-    right: 20%; 
-    top: 20%;
+    right: 25%; 
+    top: 25%;
     border-radius: 5px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
@@ -227,4 +227,31 @@ width: 100%;
 #testimonials p {
     font-size: .8em;
     margin: 4% 0%;
+}
+
+/* Bottom */
+
+#bottom {
+    text-align: center;
+    background-image: url(../img/indoor_outdoor.jpg);
+    background-size:cover;
+    
+}
+
+#bottom div {
+    margin: 2% 0%;
+}
+
+#bottom p {
+    padding: 2% 4%;
+    font-size: 1.5em;
+    line-height: 110%;
+    color: #FFAE6A;
+}
+
+#bottom a {
+ width: 40%;
+    padding: 1.5% 4%;
+    border-radius: 0px;
+    margin: 2% 2%;
 }

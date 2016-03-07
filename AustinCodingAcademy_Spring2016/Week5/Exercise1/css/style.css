@@ -18,6 +18,15 @@ span {
     font-style: italic;
 }
 
+span:hover {
+    color: red;
+    cursor: none;
+}
+
+span.highlight {
+font-style:normal;
+}
+
 .color_main {
     color: #FF851E;
 }
@@ -36,6 +45,11 @@ span {
 
 .cursive {
      font-family: 'Pacifico', cursive;
+}
+
+.opacity {
+    background-color: rgba(0,0,0,.6);
+    padding: 10%;
 }
 
 /* Navbar */
@@ -74,11 +88,6 @@ nav a {
     margin: 0%;
 }
 
-.opacity {
-    background-color: rgba(0,0,0,.6);
-    padding: 10%;
-}
-
 /* Title section */
 
 .title {
@@ -87,7 +96,6 @@ nav a {
     background-size:cover;
     background-position: bottom;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    
 }
 
 h2 { 
@@ -99,7 +107,6 @@ font-size: 3em;
 .title p {
     font-size: 1.5em;
     margin-bottom: 3%;
-/*    color: #FFAE6A;*/
 }
 
 .button {
@@ -260,6 +267,7 @@ width: 100%;
     font-size: 1.5em;
     line-height: 110%;
     color: #FFAE6A;
+    margin-bottom: 4%;
 }
 
 #bottom a {
@@ -268,4 +276,3 @@ width: 100%;
     border-radius: 0px;
     margin: 2% 2%;
 }
-

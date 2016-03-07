@@ -30,6 +30,14 @@ span {
     color: #7F5735;
 }
 
+.shadow {
+    text-shadow: 1px 1px 1px grey;
+}
+
+.cursive {
+     font-family: 'Pacifico', cursive;
+}
+
 /* Navbar */
 
 nav a:link {
@@ -101,14 +109,15 @@ font-size: 3em;
     border-radius: 5px;
 }
 
-.title a:link {
-    color: aliceblue;
-}
-
-.title a:visited {
+a:link.button, a:visited.button {
     color:aliceblue;
 }
-.title a:hover {
+
+a:active.button {
+    color:red;
+}
+
+a:hover.button {
     background-color: rgba(127,87,53,.7);
 }
 
@@ -196,6 +205,7 @@ width: 100%;
 .feature > h4 {
     font-size: 1.1em;
     margin-bottom: 5%;
+    text-shadow: 1px 1px 1px grey;    
 }
 
 .feature > p {
@@ -222,6 +232,7 @@ width: 100%;
 #testimonials img {
     width: 100%;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 2%;
 }
 
 #testimonials p {
@@ -235,6 +246,8 @@ width: 100%;
     text-align: center;
     background-image: url(../img/indoor_outdoor.jpg);
     background-size:cover;
+    background-position: 50% 80%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     
 }
 
@@ -255,3 +268,4 @@ width: 100%;
     border-radius: 0px;
     margin: 2% 2%;
 }
+

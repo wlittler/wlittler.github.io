@@ -18,6 +18,11 @@
     padding: 1%;
 }
 
+#me h1:hover {
+    color:forestgreen;
+    cursor: progress;
+}
+
 /* Dropdown menu */
 
 .dropdown {
@@ -43,18 +48,16 @@
 
 /* Hidden Snoopdog */
 
-.snoop {
-    position: relative;
-    display: inline-block;
+#snoop {
+    display: none;
+    position:fixed;
+    right: 25%; 
+    top: 25%;
+    z-index: 1;
 }
 
-.snoop:hover .dancer {
-    display: block;
-}
-
-.dancer {
-    display:none;
-    
+#me > div:hover + div {
+    display: block;    
 }
 
 /* End Hidden Snoopdog */
@@ -83,7 +86,7 @@ header {
     text-align: center;
 }
 
-img {
+#wlittler    {
     border-style: ridge;
     border-color: cornflowerblue;
 }

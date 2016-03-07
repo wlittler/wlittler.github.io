@@ -88,6 +88,25 @@ nav a {
     margin: 0%;
 }
 
+/* Hidden Feature */
+
+#Pinky {
+    display: none;
+    position:fixed;
+    right: 25%; 
+    top: 25%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#Pinky iframe {
+    margin-bottom: -5px;
+}
+
+#world_domination > div:hover + div {
+    display: block;
+}
+
 /* Title section */
 
 .title {
@@ -106,7 +125,7 @@ font-size: 3em;
 
 .title p {
     font-size: 1.5em;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
 
 .button {
@@ -126,25 +145,6 @@ a:active.button {
 
 a:hover.button {
     background-color: rgba(127,87,53,.7);
-}
-
-/* Hidden Feature */
-
-#Pinky {
-    display: none;
-    position:fixed;
-    right: 25%; 
-    top: 25%;
-    border-radius: 5px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-
-#Pinky iframe {
-    margin-bottom: -5px;
-}
-
-#world_domination > div:hover + div {
-    display: block;
 }
 
 /* Main Feature */

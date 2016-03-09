@@ -43,6 +43,10 @@ font-style:normal;
     text-shadow: 1px 1px 1px grey;
 }
 
+.box_shadow {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
 .cursive {
      font-family: 'Pacifico', cursive;
 }
@@ -72,11 +76,13 @@ nav {
 
 nav h1 {
     float: left;
+    font-size: 2em;
 }
 
 nav ul {
     float: right;
     list-style: none;
+    padding: 1% 0%;
 }
 
 li {
@@ -169,7 +175,6 @@ width: 100%;
     float: left;
     width: 20%;
     margin: 0% 2%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #main div.blood {

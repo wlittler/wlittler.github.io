@@ -1,0 +1,37 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+/* Laptop view */
+
+
+main {
+    background-image: url(../img/bg.jpg);
+/*    background-size: cover;*/
+    width: 100%;
+    height: 50vh;
+/*    float: left;*/
+}
+
+main h1 {
+    padding: 10% 5%;
+}
+
+section div {
+/*    width:*/
+}
+
+@media screen and (max-width: 700px) {
+    section div {
+        width: 80%;
+    }
+    
+    main {
+        background-image: url(../img/bg2.jpg)
+    }
+}

@@ -1,0 +1,16 @@
+.row > div {
+    background-color: blueviolet;
+    color: white; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row {
+    background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.front {
+    z-index: 1;
+}

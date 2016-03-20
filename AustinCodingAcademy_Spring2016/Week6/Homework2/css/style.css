@@ -70,6 +70,7 @@ section p {
 .white {
     background-color: #FFFFFF;
 }
+/*
 .phone {
     display: none;
 }
@@ -77,6 +78,7 @@ section p {
 .laptop {
     display: inherit;
 }
+*/
 
 @media screen and (max-width: 640px) {
     main,
@@ -85,6 +87,7 @@ section p {
         width: 40%;
         margin: auto;
         padding: 10% 5%;
+        display: block;
     }
     section > div {
         width: 40%;
@@ -92,6 +95,7 @@ section p {
     
     main h1, .middle h2 {
         font-size: 2.5em;
+        display: block;
     }
     section h2 {
         font-size: 1.6em;
@@ -99,17 +103,22 @@ section p {
     section p {
         font-size: .75em; 
     }
+/*
     .phone {
         display: inherit;
     }
+*/
+/*
     .laptop {
         display: none;
     }
+*/
 }
 
 @media screen and (max-width: 440px)
 {
     main h1, .middle h2 {
         font-size: 1.7em;
+        display: block;
     }
 }

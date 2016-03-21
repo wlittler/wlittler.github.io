@@ -70,15 +70,6 @@ section p {
 .white {
     background-color: #FFFFFF;
 }
-/*
-.phone {
-    display: none;
-}
-
-.laptop {
-    display: inherit;
-}
-*/
 
 @media screen and (max-width: 640px) {
     main,
@@ -103,22 +94,18 @@ section p {
     section p {
         font-size: .75em; 
     }
-/*
-    .phone {
-        display: inherit;
+
+    main span {
+        display: block;
     }
-*/
-/*
-    .laptop {
-        display: none;
-    }
-*/
 }
 
 @media screen and (max-width: 440px)
 {
     main h1, .middle h2 {
         font-size: 1.7em;
-        display: block;
+    }
+    main span {
+        display:block;
     }
 }

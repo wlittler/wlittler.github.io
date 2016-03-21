@@ -6,3 +6,14 @@
     line-height: 0;
     visibility: hidden;
 }
+
+nav {
+    background-image: url(../img/cheetos_background.jpg);
+    background-size: cover;
+}
+
+nav h1 {
+    font-size: 3em;
+    font-weight: 800;
+    color: black;
+}

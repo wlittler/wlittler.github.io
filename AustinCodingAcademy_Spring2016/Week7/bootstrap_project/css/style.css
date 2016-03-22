@@ -7,6 +7,10 @@
     visibility: hidden;
 }
 
+body {
+    background-color: #FBC659;
+}
+
 nav {
     background-image: url(../img/cheetos_background.jpg);
     background-size: cover;
@@ -15,5 +19,26 @@ nav {
 nav h1 {
     font-size: 3em;
     font-weight: 800;
-    color: black;
+    color: #124EA7;
+}
+
+.nav_bar {
+    margin-bottom: 2%;
+}
+
+.fan_club_btn {
+    background-color: #EE7300;
+}
+
+.jumbotron {
+    margin-top: 2%;
+    background-color: #FFD57D;
+}
+
+.jumbotron h1 {
+    color: #124ea7;
+}
+
+.twitter-timeline {
+    width: 200px;
 }

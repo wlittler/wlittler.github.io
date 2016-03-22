@@ -9,6 +9,7 @@
 
 body {
     background-color: #FBC659;
+    font-family: 'Days One', sans-serif;
 }
 
 nav {
@@ -17,9 +18,10 @@ nav {
 }
 
 nav h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 800;
     color: #124EA7;
+    text-shadow: 2px 2px black;
 }
 
 .nav_bar {
@@ -39,6 +41,15 @@ nav h1 {
     color: #124ea7;
 }
 
-.twitter-timeline {
-    width: 200px;
+.sub_header {
+    width: 80%;
+}
+
+.footer {
+    margin-top: 2%;
+    background-color: #FFD57D;
+}
+
+.footer li {
+    display:inline;
 }

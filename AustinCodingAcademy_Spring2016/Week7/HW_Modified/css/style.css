@@ -1,0 +1,21 @@
+#mainNav {
+    background-color: orange;
+}
+
+.pony_txt_purp {
+    color: #B501BB;
+}
+
+#pony_color {
+    background-color: #ED4042;
+    color: #FEC503;
+}
+
+header {
+    background-size: cover;
+}
+
+.ponies img {
+    width: 50%;
+}
+

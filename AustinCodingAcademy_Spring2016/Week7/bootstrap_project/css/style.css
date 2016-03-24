@@ -17,11 +17,16 @@ nav {
     background-size: cover;
 }
 
-nav h1 {
-    font-size: 4em;
-    font-weight: 800;
-    color: #124EA7;
-    text-shadow: 2px 2px black;
+#Cheetitle {
+    font-size: 1.5em;
+}
+
+#my_nav a {
+    color: #124ea7;
+}
+
+#active > a {
+    background-color: rgba(251, 164, 89,.8);
 }
 
 .nav_bar {
@@ -59,7 +64,6 @@ nav h1 {
 }
 
 .quotez {
-    width: 75%;
 }
 
 /*Quote CSS*/
@@ -78,7 +82,7 @@ blockquote{
     margin-top: -50px;
     padding-top: -100px;
     border-radius: 17px;
-    background-color: #4ADFCC;
+    background-color: #FBE059;
     margin-top: 25px;
     color:white;
     width: 325px;

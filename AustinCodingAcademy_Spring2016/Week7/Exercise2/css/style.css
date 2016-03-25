@@ -1,0 +1,26 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.my_logo {
+    width: 20%;
+}
+
+.my_header {
+    background-color: bisque;
+    padding: 10px 0px;
+}
+
+#carousel-example-generic {
+    max-height: 425px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    top: 0;
+}

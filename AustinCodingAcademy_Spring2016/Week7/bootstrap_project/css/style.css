@@ -33,8 +33,20 @@ nav {
     margin-bottom: 2%;
 }
 
-.fan_club_btn {
+#fan_club_btn {
     background-color: #EE7300;
+}
+
+#fan_club_btn:focus, #fan_club_btn:hover {
+    background-color: #BD5B00;
+}
+
+#fan_club_btn:active:focus, #fan_club_btn:active:hover  {
+  background-color: #944700;
+}
+
+.modal-header > img {
+    width: 20%;
 }
 
 .jumbotron {

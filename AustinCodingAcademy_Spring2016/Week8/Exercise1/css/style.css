@@ -1,0 +1,23 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.my_container {
+    height: 1200px;
+}
+
+.my_second_container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: aqua;
+    color: firebrick;
+}
+
+#my_jello {
+    width: 100%;
+}

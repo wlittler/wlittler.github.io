@@ -81,53 +81,91 @@
             <div class="col-md-6 col-sm-12">
 
                 <div class="col-md-6 col-sm-6 product">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 animated fadeIn">
                         <img src="img/ev_charge_bot.jpg" alt="EV charger" title="EV charger"></div>
                 </div>
                 <div class="col-md-6 col-sm-6 product">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 animated fadeIn">
                         <img src="img/ev_batteries.jpg" alt="EV battery" title="EV battery"></div>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="col-xs-12">
-                        <h2>Three main factors that affect which EV fits your lifestyle: charging speed, range, and cost.</h2>
-                    </div>
-                    <div class="col-xs-4">
-                        <ul>
-                            <h3>Charging</h3>
 
-                            <li>Tesla - 45 minutes to ~20 hours from 0-100%*</li>
-                            <li>Nissan Leaf - 30 minutes to 26 hours*</li>
-                            <li>Chevy Volt - 4.5 hours to 13 hours**</li>
-                        </ul>
-                        <span class="legal">*Dependent on charge source<br>**Chevy Volt can also charge via it's on-board gasoline generator</span>
+                        <h2>Three main factors that affect which EV fits your lifestyle: <a data-toggle="modal" data-target="#charging"> charging speed</a>, <a data-toggle="modal" data-target="#range"> range</a>, and <a data-toggle="modal" data-target="#cost"> cost</a>.</h2>
                     </div>
 
-                    <div class="col-xs-4">
-                        <ul>
-                            <h3>Range**</h3>
+                    <!-- Charging Modal -->
+                    <div class="modal fade" id="charging" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h3 class="modal-title" id="myModalLabel">Charging (from 0-100%)</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Tesla - 45 minutes to ~20 hours*</li>
+                                        <li>Nissan Leaf - 30 minutes to 26 hours*</li>
+                                        <li>Chevy Volt - 4.5 hours to 13 hours**</li>
+                                    </ul>
+                                    <span class="legal">*Dependent on charge source<br>**Chevy Volt can also charge via it's on-board gasoline generator</span>
 
-                            <li>Tesla - 310 to 240 miles*</li>
-                            <li>Nissan Leaf - 87 to 104 miles</li>
-                            <li>Chevy Volt - 53 (battery only) to 420 (gas-assisted)</li>
-                        </ul>
-                        <span class="legal">*Dependent on battery configuration<br>**Rated, actual depends on driving habirs</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-xs-4">
-                        <ul>
-                            <h3>Cost</h3>
+                    <!-- Range Modal -->
+                    <div class="modal fade" id="range" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h3 class="modal-title" id="myModalLabel">Range**</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
 
-                            <li>Tesla - $35,000+*</li>
-                            <li>Nissan Leaf - $29,010+</li>
-                            <li>Chevy Volt - $33,200+</li>
-                        </ul>
-                        <span class="legal">*Model 3 starts @ $35,000, Model S/X @ $70,000</span>
+                                        <li>Tesla - 310 to 240 miles*</li>
+                                        <li>Nissan Leaf - 87 to 104 miles</li>
+                                        <li>Chevy Volt - 53 (battery only) to 420 (gas-assisted)</li>
+                                    </ul>
+                                    <span class="legal">*Dependent on battery configuration<br>**Rated, actual depends on driving habirs</span>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+
+
+                    <!-- Cost Modal -->
+                    <div class="modal fade" id="cost" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h3 class="modal-title" id="myModalLabel">Cost</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+
+                                        <li>Tesla - $35,000+*</li>
+                                        <li>Nissan Leaf - $29,010+</li>
+                                        <li>Chevy Volt - $33,200+</li>
+                                    </ul>
+                                    <span class="legal">*Model 3 starts @ $35,000, Model S/X @ $70,000</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
 
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 animated fadeIn">
                         <img src="img/price_tag.png" alt="Cost" title="Cost"></div>
                 </div>
             </div>
@@ -139,24 +177,70 @@
             <!--  Company Mission comparison  -->
             <div class="col-md-6 col-sm-12">
 
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-6 animated fadeIn">
                     <img src="img/tesla_trunk.jpg" alt="Tesla" title="Tesla">
                 </div>
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-6 animated fadeIn">
                     <img src="img/nissan_log.png" alt="Nissan" title="Nissan"></div>
                 <div class="col-md-6 hidden-xs hidden-sm">
                     Each of these three have varied mission statements. Which speaks to you? </div>
-                <div class="col-md-6 hidden-xs hidden-sm">
+                <div class="col-md-6 hidden-xs hidden-sm animated fadeIn">
                     <img src="img/chevy_logo.jpg" alt="Chevy" title="Chevy"></div>
             </div>
 
             <div class="col-md-6 col-sm-12">
+                <!-- Mission Statement Text Carousel -->
+                <div id="text-carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="row">
+                        <div class="col-xs-offset-3 col-xs-6">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="carousel-content">
+                                        <div>
+                                            <p>Tesla’s mission is to accelerate the world’s transition to sustainable energy.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-content">
+                                        <div>
+                                            <p>Nissan provides unique and innovative automotive products and services that deliver superior measurable values to all stakeholders in alliance with Renault. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-content">
+                                        <div>
+                                            <p>Chevrolet - We state proudly our five principles that guide us in everything we do:</p>
+                                            <ul>
+                                                <li>Safety and Quality First</li>
+                                                <li>Create Lifelong Customers</li>
+                                                <li>Innovate</li>
+                                                <li>Deliver Long-Term Investment Value</li>
+                                                <li>Make a Positive Difference</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
 
-                Company profiles / company mission summary - Tesla - Tesla’s mission is to accelerate the world’s transition to sustainable energy. Nissan - Nissan provides unique and innovative automotive products and services that deliver superior measurable values to all stakeholders in alliance with Renault. Chevrolet - We state proudly our five principles that guide us in everything we do: Safety and Quality First Create Lifelong Customers Innovate Deliver Long-Term Investment Value Make a Positive Difference
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#text-carousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#text-carousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                </div>
 
             </div>
-            <div class="hidden-md hidden-lg col-sm-6">Each of these three have varied mission statements. Which speaks to you? Do you want to support a corporation that values it profits and shareholders, or a company that wants to make the world a better place?</div>
-            <div class="hidden-md hidden-lg col-sm-6"><img src="img/chevy_volt.jpg" alt="Chevy" title="Chevy"></div>
+            <div class="hidden-md hidden-lg col-sm-6">
+                <h4>Each of these three have varied mission statements. Which speaks to you? Do you want to support a corporation that values it profits and shareholders, or a company that wants to make the world a better place?</h4></div>
+            <div class="hidden-md hidden-lg col-sm-6 animated fadeIn"><img src="img/chevy_logo.jpg" alt="Chevy" title="Chevy"></div>
         </div>
 
         <div class="hidden-md hidden-lg col-sm-12">
@@ -171,6 +255,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+
+
 </body>
+
+
 
 </html>

@@ -43,3 +43,7 @@ span.legal {
     height: auto;
     padding: 50px;
 }
+
+.tesla_appear {
+    background-image: url(../img/model_s.png);
+}

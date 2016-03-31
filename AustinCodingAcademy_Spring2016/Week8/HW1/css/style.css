@@ -1,0 +1,31 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    width: 80%;
+}
+.carousel_txt {
+    text-shadow: 1px 1px 2px darkred;
+}
+.product img {}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.3em;
+}
+li {
+    font-weight: 500;
+}
+span.legal {
+    font-size: .6em;
+    font-weight: 500;
+}

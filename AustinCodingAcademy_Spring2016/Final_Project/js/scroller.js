@@ -6,7 +6,7 @@ $(document).ready(function () {
         $(document).scroll(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
-                $(".navbar-default").css('background-color', '#ffffff');
+                $(".navbar-default").css('background-color', '#f8f8f8');
             } else {
                 $('.navbar-default').css('background-color', 'transparent');
             }

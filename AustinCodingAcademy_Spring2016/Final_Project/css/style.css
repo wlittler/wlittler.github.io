@@ -26,11 +26,11 @@
 }
 
 .forest_bg {
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/forest.jpg') no-repeat fixed;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/forest.jpg') no-repeat fixed 0px -200px;
 }
 
 .city_bg {
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/city.jpg') no-repeat fixed;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/city.jpg') no-repeat fixed 20px;
 }
 
 .wasteland_bg {
@@ -43,4 +43,19 @@
 
 .content_expander {
     height: 1000px;
+}
+
+.stay_right {
+    float: right;
+}
+
+.sandwich {
+    width: 100px;
+    margin-top: -20px;
+}
+
+#car_menu {
+    right: 0;
+    top: 50px;
+    left: initial;
 }

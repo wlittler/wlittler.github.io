@@ -1,0 +1,46 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.affix-top,
+.affix-bottom {
+    width: 100%;
+    position: fixed;
+    display: block;
+}
+
+.affix {
+    display: none;
+}
+
+.bg_1 {
+    color: #fff;
+    background-size: contain;
+    height: 250px;
+    overflow: auto;
+}
+
+.forest_bg {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/forest.jpg') no-repeat fixed;
+}
+
+.city_bg {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/city.jpg') no-repeat fixed;
+}
+
+.wasteland_bg {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/wasteland.jpg') no-repeat fixed;
+}
+
+.ocean_bg {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/ocean.jpg') no-repeat fixed;
+}
+
+.content_expander {
+    height: 1000px;
+}

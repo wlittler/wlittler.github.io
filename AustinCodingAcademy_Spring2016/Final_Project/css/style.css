@@ -21,7 +21,7 @@ body {
 .bg_1 {
     color: #fff;
     background-size: contain;
-    height: 250px;
+    height: 300px;
     overflow: auto;
 }
 
@@ -42,6 +42,8 @@ body {
 nav h3 {
     display: initial;
 }
+
+/*
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -51,11 +53,16 @@ nav h3 {
     border-radius: 0px;
     z-index: 10007;
 }
+*/
+
 
 /*Why*/
 
 .forest_bg {
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/forest.jpg') no-repeat fixed 0px -200px;
+}
+.extend_forest {
+    height: 500px;
 }
 .city_bg {
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/city.jpg') no-repeat fixed 20px -200px;
@@ -64,7 +71,7 @@ nav h3 {
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/wasteland.jpg') no-repeat fixed;
 }
 .ocean_bg {
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/ocean.jpg') no-repeat fixed;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/future_city.jpg') no-repeat fixed;
 }
 
 /*Misc*/

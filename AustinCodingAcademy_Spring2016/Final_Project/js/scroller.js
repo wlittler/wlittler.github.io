@@ -6,10 +6,13 @@ $(document).ready(function () {
         $(document).scroll(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
-                $(".navbar-default").css('background-color', '#f8f8f8');
+                $("nav").addClass("navbar-fixed-top");
+                $("section.forest_bg").addClass("extend_forest");
             } else {
-                $('.navbar-default').css('background-color', 'transparent');
+                $("nav").removeClass("navbar-fixed-top");
+                $("section.forest_bg").removeClass("extend_forest");
             }
+            //            console.log(scroll_start);
         });
     }
 });

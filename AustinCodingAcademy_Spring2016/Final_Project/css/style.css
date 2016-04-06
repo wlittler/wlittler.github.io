@@ -6,18 +6,18 @@
     line-height: 0;
     visibility: hidden;
 }
-
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .affix-top,
 .affix-bottom {
     width: 100%;
     position: fixed;
     display: block;
 }
-
 .affix {
     display: none;
 }
-
 .bg_1 {
     color: #fff;
     background-size: contain;
@@ -25,37 +25,60 @@
     overflow: auto;
 }
 
+/*Navbar*/
+
+.stay_right {
+    float: right;
+}
+.sandwich {
+    width: 100px;
+    margin-top: -20px;
+}
+#car_menu {
+    right: 0;
+    top: 50px;
+    left: initial;
+}
+nav h3 {
+    display: initial;
+}
+
+/*Why*/
+
 .forest_bg {
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/forest.jpg') no-repeat fixed 0px -200px;
 }
-
 .city_bg {
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/city.jpg') no-repeat fixed 20px;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/city.jpg') no-repeat fixed 20px -200px;
 }
-
 .wasteland_bg {
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/wasteland.jpg') no-repeat fixed;
 }
-
 .ocean_bg {
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/ocean.jpg') no-repeat fixed;
 }
+
+/*Misc*/
 
 .content_expander {
     height: 1000px;
 }
 
-.stay_right {
-    float: right;
-}
+/*Media Queries*/
 
-.sandwich {
-    width: 100px;
-    margin-top: -20px;
+@media screen and (max-width: 420px) {
+    .short_title {
+        display: initial;
+    }
+    .long_title {
+        display: none;
+    }
 }
-
-#car_menu {
-    right: 0;
-    top: 50px;
-    left: initial;
+@media screen and (min-width: 421px) {
+    .short_title {
+        display: none;
+    }
+    .long_title {
+        display: initial;
+    }
 }

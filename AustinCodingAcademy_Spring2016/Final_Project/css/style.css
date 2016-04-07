@@ -24,6 +24,12 @@ body {
     height: 300px;
     overflow: auto;
 }
+.bg_2 {
+    color: #fff;
+    background-size: contain;
+    height: 800px;
+    overflow: auto;
+}
 
 /*Navbar*/
 
@@ -43,18 +49,47 @@ nav h3 {
     display: initial;
 }
 
-/*
-.navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-    margin-bottom: 0px;
-    position: fixed;
-    width: 100%;
-    border-radius: 0px;
-    z-index: 10007;
-}
-*/
+/*Global*/
 
+p {
+    font-size: 1.5em;
+}
+span.emphasis {
+    color: crimson;
+}
+a {
+    color: darkslategrey;
+}
+span.question {
+    font-style: italic;
+}
+span.hint {
+    color: #AD0728;
+}
+span.highlight {
+    color: #730000;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/*Index*/
+
+.overpop_bg {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/overpop.jpg') no-repeat fixed 200px 0px;
+}
+.moon_miner_bg {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/moon_miner.jpg') no-repeat fixed 150px 50px;
+}
+ul {
+    list-style: none;
+}
+h2 {
+    color: #4F0000;
+}
+a:hover h2 {
+    color: crimson;
+}
 
 /*Why*/
 
@@ -96,5 +131,21 @@ nav h3 {
     }
     .long_title {
         display: initial;
+    }
+}
+@media screen and (max-width: 640px) {
+    .overpop_bg {
+        background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/overpop.jpg') no-repeat fixed -400px 0px;
+    }
+    .moon_miner_bg {
+        background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/moon_miner.jpg') no-repeat fixed -400px 0px;
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 1600px) {
+    .overpop_bg {
+        background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/overpop.jpg') no-repeat fixed -200px 0px;
+    }
+    .moon_miner_bg {
+        background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(0, 0, 0, .5) 100%), url('../img/moon_miner.jpg') no-repeat fixed -250px 180px;
     }
 }

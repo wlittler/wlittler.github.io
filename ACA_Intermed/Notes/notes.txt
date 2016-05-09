@@ -1,0 +1,39 @@
+5/3/16
+
+grading cutoff - 1pm Sunday?
+
+read lesson 0 - check
+read lesson 1 before thursday - check
+	read through pig latin app guide, play with pig latin check
+	complete lesson 1 tests if possible check
+	have questions when you arrive @ 6pm check
+  set up tonic - check
+read lesson 2 before monday
+
+general guidelines - use above before every lesson/week.
+
+5/4/16
+
+questions -
+Javascript reserved words - can you use variations of reserved words, such as
+"native_tongue" where "native" is reserved? unanswered so far
+what is the point of assigning "undefined" to a var?
+please explain github edits. how can I chain together edits that I make? do they
+chain automatically? what is the correct process?
+
+5/5/16
+
+finish the prework by tuesday OR ELSE GIZEM STARTS KILLIN' - check
+
+pig latin due by 1pm Sunday - check
+read lesson 2 before tuesday
+
+
+pig latin process -
+  1) lower the case
+  2) find the first vowel
+  3) slice the word
+  4) reorder word
+  5) add 'ay'
+  6) if vowelIndex === 0, return Word + 'yay'
+  7)

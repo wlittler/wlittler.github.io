@@ -10,7 +10,9 @@ $(document).ready(function () {
         $(document).scroll(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
-                $("nav").addClass(fadeNav);
+                $("nav").addClass(fadeNav).one(animatedEnd, function () {
+                    $(this).removeClass(fadeNav);
+                });
                 $("section.forest_bg").addClass("extend_forest");
             } else {
                 $("nav").removeClass("navbar-fixed-top");
@@ -18,14 +20,7 @@ $(document).ready(function () {
             }
             //            console.log(scroll_start);
         });
-
-    }
-
-
-
-
-
-
+    };
 });
 
 

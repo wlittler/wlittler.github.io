@@ -26,7 +26,7 @@ chain automatically? what is the correct process?
 finish the prework by tuesday OR ELSE GIZEM STARTS KILLIN' - check
 
 pig latin due by 1pm Sunday - check
-read lesson 2 before tuesday
+read lesson 2 before tuesday - check
 
 
 pig latin process -
@@ -37,3 +37,130 @@ pig latin process -
   5) add 'ay'
   6) if vowelIndex === 0, return Word + 'yay'
   7)
+
+5/10/16
+
+app cutoff - 3pm Sunday - done
+lesson tests due before class on Thursdays - check
+
+Class notes:
+
+	Pure functions have no side effects. They take in their parameters, process their parameters, then return a result.
+	Side effects are when global data is "messed with" inside a function.
+
+	Return - return sends a value back to the caller of a function.
+
+	Return ENDS execution of the function. If return gets called, anything that follows will not get called.
+		ex -
+			function doSomething() {
+				return ; // <-- you don't actually have to return a value
+
+			var a = 3.14159;
+			var two = 2;
+
+			return a + two;
+			}
+
+	State Machine
+
+		Every computer operation transforms the computer state from one "value" to another.
+
+		What are my initial conditions (values)?
+		What are my final values?
+
+	If you need to do a lot of work in a switch, consider packing your work into functions.
+
+	Always think about decomposing large blocks of statements into functions for clarity and organization.
+
+	In JavaScript, we have First Class Functions.
+
+		function returnAdd() {
+			return function add(num1, num2) {
+				return num1 + num2;
+			}
+		}
+
+		5/12/16
+
+		My questions - What is a tab character? - answered
+
+		Q & A
+
+		Functions :
+
+			- They package work together
+			- They are testable
+			- We don't have to think about it
+			- Code reuse
+			- build a library
+			- organization and clarity
+
+		Naming is important
+		Give clear names that explain what functions, variables do in the code
+
+		Hierarchy of Computation
+
+		- Electrons moving (electricity)
+		- Microprocessor Logic
+		- Machine Code (00101010101)
+		- Assembly Code
+		- JavaScript (higher level languages)
+
+		Function Hierarchy
+
+		- Raw JavaScript
+		- Build up a library of functions
+		- Application
+
+		Two Kinds Of Functions
+
+		- General functionality (adding numbers)
+		- Application Specific (the 'language' of your app)
+
+		Refactor - Rewriting code to improve quality
+
+		When to use a semicolon -
+
+		function add(num1, num2) {
+			console.log(num1, num2);
+			return num1 + num2;
+		}
+
+		involves Parsing of the JavaScript code
+
+		Computer languages:
+		- compiled
+		- interpreted
+
+		Use of semicolons(expanded):
+		- some is necessary
+		- some is style
+
+		Indenting
+
+		Lesson 3
+
+		Function Scope
+
+		var number = 4;
+
+		function addTwo(num) {
+			var number = 2; <-- this hides outer var number
+			return number + num;
+		}
+
+		function createAddNumber(number) {
+		// Anything defines here is available to add number
+			return function addNumber(value) {
+				return value + number;
+			}
+		}
+
+		var addFive = createAddNumber(5);
+		var addThree = createAddNumber(3);
+
+		this is called closure
+
+		first class functions
+
+		* practice with arrays and get familiar with them

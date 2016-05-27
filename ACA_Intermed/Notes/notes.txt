@@ -164,3 +164,187 @@ Class notes:
 		first class functions
 
 		* practice with arrays and get familiar with them
+
+		5/17/16
+
+		*Personal project note* Love Locks - wrap the hero img in a div, see how it responds *
+
+		Agenda:
+
+		1) Paul rants about indentation
+
+		2) Q & A
+
+		3) Pair White Boarding on Tic Tac Toe
+
+		4) Pair Programming on Tic Tac Toe
+
+		1)	Indenting
+
+		Why indent?
+
+		English is composed to make it easy to follow -
+			- Keep sentences a certain length
+			- Structure paragraphs so they represent a single idea
+			- Transitions
+			- Visual cues to help guide the eyes
+
+		Code indenting has the same purpose.
+
+		Code indenting:
+
+		function add(a,b) { return a + b;} // Single line function
+
+		function complexStuff() { // everyone does JS this way, so do you!!
+			// two spaces in
+			var bob;
+			if (true) {
+				// indent two spaces
+				bob = 'bob';
+			}
+			else if () {
+				// this level
+			}
+			else if () {
+				// this level
+			}
+			else {
+				// tis level
+			}
+		}
+
+		2) Q & A
+
+		What is an array?
+
+		var values = [ null, 2, "bob", ["suzy", function () { return null}], 42]
+
+		An array can hold any value, including arrays.
+
+		var ttt =		[['X', 'O', 'X'],
+								 ['X', 'O', 'X'],
+								 ['X', 'O', 'X']],
+
+
+		Function school:
+
+		function nully() { return null } // named function definition
+
+		We can reference the function by name
+
+		var functionRef = nully; // passing around a reference to function
+
+		The name of a function represents the reference to the function definition.
+
+		when we add parenthesis, we are calling the function.
+
+		nully(); // <- function call, not reference
+
+		We need function references as opposed to calls because we want to be able to reference a function
+		before it is defined.
+
+		5/19/16
+
+		Agenda
+
+		1) Q&A
+		2) Expressions & Evaluation
+		3) Lesson 4
+		4) Finish existing work
+		5) Work on Lesson 4 Tests together
+		6) Whiteboard Towers of Hanoi
+
+			Expressions "express" the values that they evaluate to.
+
+			2+3 => 5
+
+			var bob = 'bob';
+			(bob === 'bob')
+
+			"cat" + "bug" => "catbug"
+
+			function isEven(number) {
+				return (number % 2 === 0); // either true or false
+			}
+
+			function isEven(number) {
+			 	if (number % 2 === 0)
+					return true;
+					}
+				}
+
+			if statements test truth value (or truthy value)
+
+			2+3 always evaluates to 5.
+
+			if (2+3) {
+				// does this execute
+			}
+			else {
+				// or does this execute
+			}
+
+			Data Structures:
+
+			1) Stack
+
+			Last In First Out (LIFO)
+
+			Arrays
+
+			Are lists of values
+			They have an order
+
+			Objects (Associate Arrays)
+
+			They don't have an order
+			They are a mapping between keys and values
+
+			Data Structures are about putting data in an order that serves your application
+
+			Arrays are not good if finding a piece of data is required
+
+			Users Yay!
+
+			{
+				firstName: 	'paul',
+				lastName: 	'nichols',
+				email: 			'paul.rene.nichols@gmail.com',
+				id:					'000001',
+				type:				'admin',
+			}
+
+			var administrators = {
+				'000001': {
+					firstName: 	'paul',
+					lastName: 	'nichols',
+					email: 			'paul.rene.nichols@gmail.com',
+					id:					'000001',
+					type:				'admin',
+				}
+			}
+
+			var userId;
+
+			administrators[userId]
+
+			Associative Arrays allow you to access data quickly
+
+			hashing / hash table
+
+			Can't use dot notation with key that has spaces!
+
+			5/26/16
+
+			Loops and Break
+
+			* break only works in switch and loops (for, while, do while)
+			* continue only works in loops
+
+			break in a loop - quit the looping
+
+			variable hoisting in javascript - look it up
+
+			Do while would be used once
+			A while loop will only execute when the condition is true
+			

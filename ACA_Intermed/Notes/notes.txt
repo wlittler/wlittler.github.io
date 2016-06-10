@@ -347,4 +347,70 @@ Class notes:
 
 			Do while would be used once
 			A while loop will only execute when the condition is true
-			
+
+			6/9/16
+
+			Lesson 6
+
+			1) Q&A - bust
+
+			2) Lesson 6
+
+			OOP, yeah, you know me
+
+			By default, right now, you can't 'require' in the browser.
+
+			Browsers have one global name space.
+
+			Lesson 6 - Object Oriented Programming
+
+			Two main types of OOP
+
+			Class based :(
+			Prototype based :)
+
+			Class based - make class - create instances
+
+			Prototype base - an object instance becomes the basis for inheritance
+
+			function Paul(scotch) {
+				this.scotch = scotch;
+
+				this.drinking = function () {
+					console.log("I'm drinking " + this.scotch);
+				}
+			}
+
+			the 'this' is an instance of prototype
+
+			When you create an instance with new, that instance references the instance data with 'this'
+
+			'this' is used to create and reference an object, and tie that object (data) to methods (functions)
+
+			var lagavulin = {
+				brand: 'lavavulin'
+			}
+
+			// Procedural Programming
+			function whatAmIDrinking(scotch) {
+				console.log(scotch.brand);
+			}
+
+			Class methods have implicit 'parameters'
+
+			That is the 'this' object.
+
+			if you're not using 'this', it's a param, or a global, or a static value
+
+			There are instance methods - 'this' applies
+
+			and there are class methods - this is undefined
+
+			function Student(firstName, lastName) {
+				this.firstName = firstName;
+				this.lastName = lastName;
+			}
+
+			Student.GetToClass = function () {
+				console.log('Get To Class!');
+			}

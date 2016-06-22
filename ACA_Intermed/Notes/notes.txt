@@ -414,3 +414,17 @@ Class notes:
 			Student.GetToClass = function () {
 				console.log('Get To Class!');
 			}
+
+			6/21/16
+
+			Lessons 7 and 8
+
+			1) jQuery
+			2) Whiteboard/Work on Apps 7/8
+
+			body input[type="text"]
+
+			<div data-not-yours="10" data-price="5.25"></div>
+
+			$([data-not-yours]).data('price') === "5.25"
+			$([data-not-yours]).data('not-yours') === "10"

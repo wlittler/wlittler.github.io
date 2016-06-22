@@ -1,0 +1,106 @@
+body {
+    overflow-x: hidden;
+}
+
+.myLogo {
+    width: 150px;
+}
+
+.myHeader {
+    background-color: rgba(49,98,47,0.35);
+    padding: 15px 0;
+}
+
+.myNav {
+    border-radius: 0;
+    background-color: #F4BBA2;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a { 
+    color: white;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+#myPeach {
+    width: 100%;
+    margin-bottom: 6%;
+}
+
+#carousel-example-generic {
+    margin-bottom: 6%;
+}
+
+p { 
+    font-size: 0.8em;
+}
+
+.divider {
+    height:50px;
+}
+
+section {
+    height:300px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+.affix-top,.affix-bottom {
+    width:100%;
+    position:fixed;
+    display:block;
+}
+  
+.affix {
+    display:none;
+}
+
+.bg-1 {
+	background: url('../img/pinupback.jpg') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+  
+.bg-2 {
+	background: url('../img/peachyback.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-3 {
+	background: url('/assets/example/bg_blueplane.jpg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+#footer {
+    height: 60px;
+    background-color:#585858;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#footer a {
+  color:#efefef;
+}
+
+.modal-dialog {
+    width:322px;
+}
+
+.thumbnail {
+    margin-bottom:6px;
+}
+
+h1, .h1 {
+    color: black;
+}

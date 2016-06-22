@@ -1,0 +1,199 @@
+<html>
+  <head>
+    <style type="text/css">
+      .clearfix::before {
+        content: "";
+        display: table;
+      }
+
+      .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      body {
+        margin: 0;
+        background: #eae0e0;
+      }
+
+      .container {
+        width: 100%;
+        height: 100%;
+        white-space: nowrap;
+      }
+
+      .column {
+        display: inline-block;
+        width: 45%;
+        padding: 2.5%;
+        border: none;
+        white-space: normal;
+        vertical-align: top;
+        height: 100%;
+        font-size: 16px;
+        color: #0036c7;
+      }
+      .column h1 {
+        font-size: 30px;
+        margin: 5px 0;
+        color: #487ab4;
+      }
+      .column h1 span {
+        display: inline-block;
+        padding: 0 5%;
+        border-bottom: #444 2px solid;
+      }
+      .column.bill-section .bill {
+        padding: 5%;
+        font-size: 24px;
+      }
+      .column.bill-section .bill .item .name {
+        float: left;
+      }
+      .column.bill-section .bill .item .name::after {
+        content: ":";
+      }
+      .column.bill-section .bill .item [data-price] {
+        color: #229930;
+        float: right;
+      }
+      .column.bill-section .bill .item [data-price]:not([data-price=""])::before {
+        content: "$";
+      }
+      .column.bill-section .bill .item [data-price]::after {
+        content: attr(data-price);
+      }
+      .column.bill-section .bill .item.total {
+        margin-top: 30px;
+      }
+      .column.bill-section .bill .item.total .name {
+        color: red;
+      }
+
+      .column.clicker-section button {
+        margin: 40px auto;
+        display: block;
+        width: 80%;
+        height: 100px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: white 1px solid;
+        outline: none;
+        transition: background-color 2s ease-out, color 2s ease-out;
+        background-color: #877;
+        color: white;
+        font-size: 30px;
+      }
+
+      .column.clicker-section button.clicked {
+        background-color: white;
+        color: orange;
+      }
+
+      .column.clicker-section button:hover {
+        border-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="column bill-section">
+        <h1><span>Bill</span></h1>
+        <div class="bill">
+          <div class="item clearfix">
+            <span class="name">Corn Dog</span>
+            <span data-price="5.25"></span>
+          </div>
+          <div class="item clearfix">
+            <span class="name">Espresso - double</span>
+            <span data-price="3.50"></span>
+          </div>
+          <div class="item clearfix">
+            <span class="name">Fine $ingle Malt</span>
+            <span data-price="25"></span>
+          </div>
+          <div class="item clearfix">
+            <span class="name">Fried Twinky</span>
+            <span data-price="2.25"></span>
+          </div>
+          <div class="item clearfix">
+            <span class="name">Jamon De Espana</span>
+            <span data-price="9.50"></span>
+          </div>
+          <div class="item total clearfix">
+            <span class="name">Total</span>
+            <span data-price=""></span>
+          </div>
+        </div>
+      </section>
+      <section class="column clicker-section">
+        <h1><span>Clicker</span></h1>
+        <button type="button">Click Me!</button>
+      </section>
+    </div>
+    <!-- load jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script>
+      // when the document is done loading, run the script inside
+      $(document).ready(function() {
+        function calculateBillTotal() {
+          // Add up the bill
+
+          // Grab the .bill-section element
+          var billSection = $('.bill-section');
+
+          // Find the .bill element
+          // within the .bill-section element
+          // (scoping our query)
+          var bill        = $('.bill', billSection);
+
+          // Grab all price, except total
+          // Scope to bill
+          var prices      = $('.item:not(.total) [data-price]', bill);
+
+          // Initialize total sum to 0
+          var total       = 0;
+
+          console.log('prices.length: ' + prices.length);
+
+          // jQuery.each()
+          // Go thru each price, parseFloat() it
+          // to convert from string to number
+          prices.each(function () {
+              // *this* here is the [data-price]
+              // element
+              // We must jQuery select it before
+              // using jQuery methods, because
+              // this is an element, not a
+              // jQuery object
+            total += parseFloat($(this).data('price'));
+          });
+
+          console.log('total: ', total);
+
+          var totalElement = $('.total', bill);
+          $('[data-price]', totalElement).attr('data-price', total);
+
+          console.log("totalElement.data('price'): ", totalElement.data('price'));
+        }
+
+        calculateBillTotal();
+
+        var clickerSectionButton = $('.clicker-section button');
+        clickerSectionButton.click(function () {
+          console.log('clickerSectionButton.click()');
+          if (clickerSectionButton.hasClass('clicked')) {
+            return;
+          }
+
+          clickerSectionButton.addClass('clicked');
+        });
+        clickerSectionButton.on('transitionend', function() {
+            console.log('transitionend');
+            clickerSectionButton.removeClass('clicked');
+          })
+      });
+    </script>
+  </body>
+</html>

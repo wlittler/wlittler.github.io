@@ -428,3 +428,14 @@ Class notes:
 
 			$([data-not-yours]).data('price') === "5.25"
 			$([data-not-yours]).data('not-yours') === "10"
+
+			6/30/16
+
+			Lessons 9 and 10
+
+			1) jQuery DOM manipulation
+			2) AJAX
+
+			Protocol - standard for communication
+
+			HTTP - Hypertext Transfer Protocol

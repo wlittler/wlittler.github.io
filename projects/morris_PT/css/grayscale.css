@@ -6,14 +6,18 @@
 
 /*  Custom  */
 
-/*.highlight:active, .highlight:focus, .highlight:hover {
-  visibility: visible;
+.highlight:active, .highlight:focus, .highlight:hover {
+  color: rgba(139,76,16,.8);
 }
 
-.highlight {
-  visibility: hidden;
-}*/
 
+.highlight {
+  color: #dfdddd
+}
+
+p > .highlight, p > .highlight:hover {
+  color: inherit;
+}
 /*  End Custom  */
 
 body {
@@ -105,7 +109,7 @@ button.navbar-toggle {
 }
 
 .navbar-custom a {
-    color: #000;
+    color: #dfdddd;
 }
 
 .navbar-custom .nav li a {
@@ -157,6 +161,10 @@ button.navbar-toggle {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #FFF;
+    }
+
+    .top-nav-collapse a {
+      color: #000;
     }
 
     .navbar-custom.top-nav-collapse ul li a:hover {

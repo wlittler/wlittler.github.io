@@ -6,6 +6,13 @@
 
 /*  Custom  */
 
+.leia > img {
+  height: auto;
+  max-width: 50%;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
 .highlight:active, .highlight:focus, .highlight:hover {
   color: rgba(139,76,16,.8);
 }
@@ -109,7 +116,7 @@ button.navbar-toggle {
 }
 
 .navbar-custom a {
-    color: #dfdddd;
+    color: #000;
 }
 
 .navbar-custom .nav li a {
@@ -155,6 +162,10 @@ button.navbar-toggle {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom a {
+        color: #dfdddd;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -292,8 +303,8 @@ button.navbar-toggle {
 
 .content-section {
     padding-top: 100px;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
 }
 
 .download-section {
@@ -316,7 +327,7 @@ button.navbar-toggle {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 200px;
         color: #000;
         background-color: #fff;
     }

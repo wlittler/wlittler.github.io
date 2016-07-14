@@ -439,3 +439,13 @@ body {
 }
 
 /* End Mobile View */
+
+/* Between 1600 - 1800 pixel width, to fix navbar color obscurity */
+
+/*@media(min-width:1600px) and (max-width:2000px) {
+  .navbar-custom a {
+    text-shadow: 1px 1px white;
+  }
+}*/
+
+/* End Between 1600-1800px correction */

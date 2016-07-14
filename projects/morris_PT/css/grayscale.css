@@ -25,7 +25,10 @@
 p > .highlight, p > .highlight:hover {
   color: inherit;
 }
+
 /*  End Custom  */
+
+/* Applies to all views */
 
 body {
     width: 100%;
@@ -57,14 +60,6 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
-}
-
-@media(min-width:768px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
 }
 
 a {
@@ -153,37 +148,6 @@ button.navbar-toggle {
     color: #28b792;
 }
 
-@media(min-width:768px) {
-    .navbar-custom {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .navbar-custom a {
-        color: #dfdddd;
-    }
-
-    .navbar-custom.top-nav-collapse {
-        padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #FFF;
-    }
-
-    .top-nav-collapse a {
-      color: #000;
-    }
-
-    .navbar-custom.top-nav-collapse ul li a:hover {
-
-    color: rgba(136,100,67,.8);
-    }
-}
-
 .intro {
     display: table;
     width: 100%;
@@ -191,7 +155,7 @@ button.navbar-toggle {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/zen_garden_1_1.jpg) no-repeat bottom center scroll;
+    background: url(../img/zen_water_2.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -210,21 +174,6 @@ button.navbar-toggle {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-}
-
-@media(min-width:768px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
-
-    .intro .intro-body .brand-heading {
-        font-size: 100px;
-    }
-
-    .intro .intro-body .intro-text {
-        font-size: 26px;
-    }
 }
 
 .btn-circle {
@@ -325,23 +274,6 @@ button.navbar-toggle {
     margin-top: 100px;
 }
 
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 75px;
-        color: #000;
-        background-color: #fff;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
-    }
-}
-
 .btn {
     border-radius: 0;
     text-transform: uppercase;
@@ -368,24 +300,6 @@ button.navbar-toggle {
 
 ul.banner-social-buttons {
     margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    ul.banner-social-buttons li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
-    }
 }
 
 footer {
@@ -419,3 +333,119 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+/* End applies to all views */
+
+/* Tablet and larger */
+
+@media(min-width:768px) {
+
+  .call {
+      display: none;
+  }
+  p {
+      margin: 0 0 35px;
+      font-size: 20px;
+      line-height: 1.6;
+  }
+
+  .intro {
+      height: 100%;
+      padding: 0;
+  }
+
+  .intro .intro-body .brand-heading {
+      font-size: 100px;
+  }
+
+  .intro .intro-body .intro-text {
+      font-size: 26px;
+  }
+
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom a {
+        color: #000;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #FFF;
+    }
+
+    .top-nav-collapse a {
+      color: #000;
+    }
+
+    .navbar-custom.top-nav-collapse ul li a:hover {
+
+    color: rgba(136,100,67,.8);
+    }
+
+    .content-section {
+        padding-top: 75px;
+        color: #000;
+        background-color: #fff;
+    }
+
+    .download-section {
+        padding: 100px 0;
+    }
+
+    #map {
+        height: 400px;
+        margin-top: 250px;
+    }
+
+}
+
+/* End Tablet and Larger */
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+/* Mobile View */
+
+@media(max-width:767px) {
+
+    .contact {
+      display: none;
+    }
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro {
+      background: url(../img/zen_water_2.jpg) no-repeat scroll;
+    }
+}
+
+/* End Mobile View */
+
+/* Between 1600 - 1800 pixel width, to fix navbar color obscurity */
+
+/*@media(min-width:1600px) and (max-width:2000px) {
+  .navbar-custom a {
+    text-shadow: 1px 1px white;
+  }
+}*/
+
+/* End Between 1600-1800px correction */

@@ -6,6 +6,14 @@
 
 /*  Custom  */
 
+.hide {
+  display: none;
+}
+
+.temp {
+  margin-bottom: 25px;
+}
+
 .leia > img {
   height: auto;
   max-width: 40%;
@@ -14,17 +22,17 @@
 }
 
 .highlight:active, .highlight:focus, .highlight:hover {
-  color: rgba(139,76,16,.8);
+  color: #28b792;
 }
 
 
 .highlight {
-  color: #dfdddd
+  color: #000;
 }
 
-p > .highlight, p > .highlight:hover {
+/*p > .highlight, p > .highlight:hover {
   color: inherit;
-}
+}*/
 
 /*  End Custom  */
 
@@ -122,7 +130,7 @@ button.navbar-toggle {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(139,76,16,.8);
+    color: #28b792;
     background-color: transparent;
 }
 
@@ -155,7 +163,7 @@ button.navbar-toggle {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/zen_water_2.jpg) no-repeat bottom center scroll;
+    background: url(../img/zen_water_rocks_2.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -256,11 +264,11 @@ button.navbar-toggle {
     background-color: #fff;
 }
 
-.download-section {
+.appointment-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/zen_garden_1_1.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -388,7 +396,7 @@ body {
 
     .navbar-custom.top-nav-collapse ul li a:hover {
 
-    color: rgba(136,100,67,.8);
+    color: #28b792;
     }
 
     .content-section {
@@ -435,6 +443,10 @@ body {
 
     .intro {
       background: url(../img/zen_water_2.jpg) no-repeat scroll;
+    }
+
+    .temp {
+      margin-bottom: 0px;
     }
 }
 

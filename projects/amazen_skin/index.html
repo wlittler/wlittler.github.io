@@ -44,25 +44,16 @@
 
                 </li> -->
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a href="#">Scrubs</a>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="#">Other things</a>
                 </li>
                 <li>
-                    <a href="#">Overview</a>
-                </li>
-                <li>
-                    <a href="#">Events</a>
+                    <a href="#">Ingredients</a>
                 </li>
                 <li>
                     <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
                 </li>
             </ul>
         </div>
@@ -77,7 +68,7 @@
                         <h1>AmaZen Skin</h1>
                         <h2>Made to order sugar scrubs using certified organic ingredients</h2>
                         <h3>Safe for even the most sensitive skin and gentle enough to use daily, anywhere on the body</h3>
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                        <a href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-chevron-left toggleSwitch" aria-hidden="true"></span></a>
                       </div>
                     </div>
                 </div>
@@ -97,6 +88,14 @@
         $("#menu-toggle").click(function(e) {
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
+            if ($('#wrapper').hasClass("toggled")) {
+              $(".toggleSwitch").removeClass("glyphicon-chevron-left");
+              $(".toggleSwitch").addClass("glyphicon-chevron-right");
+            }
+            else {
+              $(".toggleSwitch").removeClass("glyphicon-chevron-right");
+              $(".toggleSwitch").addClass("glyphicon-chevron-left");
+            }
         });
     </script>
 </body>

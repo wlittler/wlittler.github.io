@@ -1,0 +1,14 @@
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.tagline {
+  color: #FFF;
+  padding-left: 5px;
+  font-size: .8em;
+}

@@ -1,5 +1,5 @@
 body {
-    font-family: 'Mirza', cursive;
+  font-family: 'Rancho', cursive;
 }
 
 .clearfix:after {
@@ -29,7 +29,13 @@ p.tagline {
 }
 
 .herobox {
-  width: 75%;
+  width: 70%;
+}
+
+.product {
+  /*border-radius: 25px;*/
+  box-shadow: 5px 5px 5px black;
+  margin-bottom: 20px;
 }
 
 .zenTitle > h1 {
@@ -42,4 +48,32 @@ p.tagline {
 
 .zenTitle > h3 {
   font-size: 1.5em;
+}
+
+@media (min-width: 1050px){
+
+  .herobox {
+    width: 70%;
+  }
+
+}
+
+@media (min-width: 1125px) {
+
+  .herobox {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1185px) {
+
+  .herobox {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .herobox {
+    width: 30%;
+  }
 }

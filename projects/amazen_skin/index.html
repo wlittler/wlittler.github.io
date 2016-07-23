@@ -22,7 +22,7 @@
 
     <!-- Custom fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Kalam:700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Mirza:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,22 +38,22 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <a href="#"><img src="img/amazenskin2.png" class="img-responsive" title="AmaZen Skin" alt="AmaZen Skin"></a>
+                <a href="#" data-contentid="title" class="menuItem"><img src="img/amazenskin2.png" class="img-responsive" title="AmaZen Skin" alt="AmaZen Skin"></a>
                 <p class="tagline">Goodness for the body, mind and soul</p>
                 <!-- <li class="sidebar-brand">
 
                 </li> -->
                 <li>
-                    <a href="#">Scrubs</a>
+                    <a href="#" data-contentid="scrubs" class="menuItem">Scrubs</a>
                 </li>
                 <li>
-                    <a href="#">Other things</a>
+                    <a href="#" class="menuItem">Other things</a>
                 </li>
                 <li>
-                    <a href="#">Ingredients</a>
+                    <a href="#" data-contentid="ingredients" class="menuItem">Ingredients</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#" data-contentid="about" class="menuItem">About</a>
                 </li>
             </ul>
         </div>
@@ -68,8 +68,9 @@
                         <h1>AmaZen Skin</h1>
                         <h2>Made to order sugar scrubs using certified organic ingredients</h2>
                         <h3>Safe for even the most sensitive skin and gentle enough to use daily, anywhere on the body</h3>
-                        <a href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-chevron-left toggleSwitch" aria-hidden="true"></span></a>
+
                       </div>
+                      <a href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-chevron-left toggleSwitch" aria-hidden="true"></span></a>
                     </div>
                 </div>
             </div>
@@ -83,21 +84,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-            if ($('#wrapper').hasClass("toggled")) {
-              $(".toggleSwitch").removeClass("glyphicon-chevron-left");
-              $(".toggleSwitch").addClass("glyphicon-chevron-right");
-            }
-            else {
-              $(".toggleSwitch").removeClass("glyphicon-chevron-right");
-              $(".toggleSwitch").addClass("glyphicon-chevron-left");
-            }
-        });
-    </script>
+    <!-- Amazen Script (menu toggle, click handlers) -->
+    <script src="js/amazen.js"></script>
 </body>
 
 </html>

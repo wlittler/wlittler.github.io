@@ -83,10 +83,17 @@ a:hover, a:focus {
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
-.navbar-custom .nav li a:hover {
+.navbar-custom .nav .dropdown-menu > li > a:hover {
+  color: #000;
+}
+.navbar-custom .nav a:hover {
     outline: 0;
-    color: #000;
+    color: #FFF;
     background-color: transparent;
+}
+
+li a:hover {
+  color: #000;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
     outline: 0;
@@ -103,11 +110,12 @@ i.fa {
     background-color: #d7d7d7;
 }
 li.active> a {
-    color: #000;
+    color: #FFF;
     /*text-shadow: 1px 1px #e4dddd;*/
 }
-.navbar-custom .nav li.active a:hover {
-    color: #000;
+
+li.active a:hover {
+  color: #FFF;
 }
 @media(min-width:768px) {
     .navbar-custom {

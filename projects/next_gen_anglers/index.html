@@ -56,7 +56,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#instagram" class="page-scroll">Instagram</a></li>
+                            <li><a href="#instafeed" class="page-scroll">Instagram</a></li>
                             <li><a href="#facebook" class="page-scroll">Facebook</a></li>
                             <li><a href="#pinterest" class="page-scroll">Pinterest</a></li>
                             <li><a href="#twitter" class="page-scroll">Twitter</a></li>
@@ -142,6 +142,10 @@
         </div>
     </section>
 
+    <!-- Instagram Feed -->
+
+    <div id="instafeed" class="content-section text-center container"></div>
+
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
@@ -189,6 +193,21 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <!-- Instafeed -->
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
+    <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '2254569994',
+        accessToken: '2254569994.1677ed0.950a8133c40c4235a4dc3212696454c6',
+        sortBy: 'most-recent',
+        limit: '1',
+        resolution: 'standard_resolution',
+        });
+    feed.run();
+</script>
+
 
 </body>
 

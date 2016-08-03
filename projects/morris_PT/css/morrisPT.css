@@ -6,6 +6,12 @@
 
 /*  Custom  */
 
+.subtext {
+  position: absolute;
+  top: 80px;
+  color: black;
+}
+
 .hide {
   display: none;
 }

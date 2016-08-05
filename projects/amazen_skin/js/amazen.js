@@ -18,10 +18,13 @@ function chevronToggle(){
     });
 // Nav menu click handler and menu content object
 var menuContent = {
-  scrubs: '<h2>Sugar scrubs!</h2><img src=img/sugar_scrub_1.jpg class="img-responsive product">',
-  ingredients: '<h2>Ingredients!</h2>',
-  about: '',
-  title: '<h1>AmaZen Skin</h1><h2>Made to order sugar scrubs using certified organic ingredients</h2><h3>Safe for even the most sensitive skin and gentle enough to use daily, anywhere on the body</h3>',
+  // scrubs: '<iframe height="800" width="500" src="sugar_scrub.html"></iframe>',
+  // scrubs: '',
+  // ingredients: '<h2>Ingredients!</h2>',
+  // about: '',
+  // set default title view to sugar scrub detail for now
+  // title: '<h1>AmaZen Skin</h1><h2>Made to order sugar scrubs using certified organic ingredients</h2><h3>Safe for even the most sensitive skin and gentle enough to use daily, anywhere on the body</h3>',
+  // title: '<iframe height="800" width="500" src="sugar_scrub.html"></iframe>'
 }
 
     $('.menuItem').click(function(e) {

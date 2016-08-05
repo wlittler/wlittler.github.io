@@ -2,6 +2,27 @@ body {
   font-family: 'Rancho', cursive;
 }
 
+iframe {
+  border-style:none;
+}
+
+a {
+  color: #0060B2;
+}
+
+a:hover {
+  color: #0089FF;
+  text-decoration: none;
+}
+p {
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.product {
+  background-color: transparent;
+}
+
 .clearfix:after {
     clear: both;
     content: ".";
@@ -32,9 +53,9 @@ p.tagline {
   width: 70%;
 }
 
-.product {
-  /*border-radius: 25px;*/
-  box-shadow: 5px 5px 5px black;
+.product_img {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px gray;
   margin-bottom: 20px;
 }
 

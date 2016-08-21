@@ -176,7 +176,7 @@ button.navbar-toggle {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/zen_water_rocks_2.jpg) no-repeat bottom center scroll;
+    background: url(../img/zen_water_rocks_3.jpg) no-repeat scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -371,7 +371,7 @@ body {
   }
 
   .intro {
-      height: 100%;
+      height: 65%;
       padding: 0;
   }
 
@@ -381,6 +381,10 @@ body {
 
   .intro .intro-body .intro-text {
       font-size: 26px;
+  }
+
+  .intro-content {
+      margin-top: 260px;
   }
 
     .navbar-custom {
@@ -441,6 +445,10 @@ body {
 
 @media(max-width:767px) {
 
+  .intro-content {
+      margin-top: 100px;
+  }
+
     .contact {
       display: none;
     }
@@ -454,9 +462,9 @@ body {
         margin-bottom: 0;
     }
 
-    /*.intro {
-      background: url(../img/zen_water_2.jpg) no-repeat scroll;
-    }*/
+    .intro {
+      background: url(../img/zen_water_rocks_3.jpg) no-repeat center scroll;
+    }
 
     .temp {
       margin-bottom: 0px;

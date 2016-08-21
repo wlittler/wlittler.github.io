@@ -1,0 +1,208 @@
+<style type="text/css">
+          <!-- Mobile css -->
+  
+  		.head-mobile {
+          	height: 100px;
+        }
+  
+  		.clearfix:after {
+            clear: both;
+            content: ".";
+            display: block;
+            height: 0;
+            line-height: 0;
+            visibility: hidden;
+        }
+		.silver {
+          background-color: lightgrey;
+        }
+  		.gold {
+          background-color: goldenrod;
+        }
+  		.platinum-section {
+          background-color: lightgrey;
+        }
+  		 div.section > div > h2, div.mobile-view > div > h2 {
+          text-shadow: 2px 2px 1px darkgrey;
+        }
+  		div.gold > div > h2 {
+          text-shadow: 2px 2px 1px #b17e0b;
+        }
+        p.disclaimer {
+          	padding-top: 20px;
+            display: inline-block;
+          	font-size: .6em;
+          	line-height: 16px;
+        }
+        .section {
+            width: 30%;
+            float: left;
+          	border-radius: 10px;
+    		box-shadow: 2px 4px 5px;
+			margin: 0% 1%;
+    		padding-left: 10px;
+    		padding-top: 5px;
+			height: 450px;
+        }
+		.sub-head {
+          text-transform: uppercase;
+        	font-size: .6em;
+          text-align: center;
+        }
+  		.heading {
+          text-align: center;
+          line-height: 30px;
+        }
+        .content {
+            width: 100%;
+          	margin-top: 2%;
+        }
+  		.head {
+          height: 160px;
+        }
+  		ul.list > li {
+        margin: 5px 0px;
+        }
+		.mobile-view {
+        	width: 90%;
+          	border-radius: 10px;
+    		box-shadow: 2px 4px 5px;
+			margin: 0% 4%;
+    		padding-left: 10px;
+          	padding-top: 5px;
+        }
+  		div.mobile-view > p, div.mobile-view > ul {
+  			  margin-left: 10%;
+  		}
+  		div.silver.mobile-view, div.gold.mobile-view {
+          padding-bottom: 2%;
+          margin-bottom: 4%;
+        }
+</style>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script>
+  $(document).ready(mobileFix);
+  function mobileFix(){
+if (window.innerWidth < 799) {
+  $('.section').toggleClass('mobile-view section');
+	$('.head').toggleClass('head-mobile head');                      
+}
+  };
+  console.log(window.innerWidth);
+</script>
+<div class="content clearfix">
+        <div class="section silver">
+          <div class="head">
+          <h2 class="heading">
+            Silver Level  $39/month</h2><p class="sub-head">
+            
+            (minimum 3-month commitment)
+      	    </p>  
+          </div>  
+               <p>
+                Includes:
+            </p>
+            <ul class="list">
+                <li>Access to the private Facebook group</li>
+                <li>Private website for resources, tools and templates</li>
+                <li>Monthly newsletter</li>
+            </ul>
+        </div>
+        <div class="section gold">
+          <div class="head">       
+          <h2 class="heading">
+            Gold Level  $49/month</h2> <p class="sub-head">
+            
+            (minimum 3-month commitment)</p>
+      	
+            </div>
+            <p>
+                Includes:
+            </p>
+            <ul class="list">
+                <li><i>Monthly group call</i></li>
+                <li>All content included at the Silver Level</li>
+            </ul>
+        </div>
+        <div class="section platinum-section clearfix">
+          <div class="head">
+             <h2 class="heading">
+               Platinum Level  $79/month</h2> <p class="sub-head">
+               
+               plus optional selection of a private 1x1 coaching package </p>
+               <p class="sub-head">
+                 
+               (minimum 3-month commitment)
+               </p>
+          </div>
+            <p class="platinum">
+                Includes:
+            </p>
+            <ul class="list">
+                <li><i>Unlimited personal email coaching (for duration of participation in program</i></li>
+                <li><i>Optional private 1x1 monthly phone coaching session*</i></li>
+                <li>All content included at the Gold Level</li>
+            </ul>
+        </div>
+        <div class="clearfix">
+            <p class="disclaimer">
+                * The Platinum plan provides discounted the option to access one-on-one personal career coaching by phone. Contact us for pricing details. Phone coaching sessions are typically held weekly, but must be used within 6 months and can occur as frequently
+                as weekly, if desired. Email coaching extends until final phone coaching session is completed.</p>
+        </div>
+    </div>
+
+// Mobile edits //
+
+add .head-mobile {
+height: 100px;
+}
+
+rm .head
+
+rm .silver
+
+// .section improvements //
+
+rm "-" from h2
+
+h2 (silver, platinum) {
+	text-shadow: 2px 2px 1px darkgrey;
+	}
+
+h2 (gold) {
+	text-shadow: 2px 2px 1px #b17e0b;
+	}
+
+.heading, .sub-head { 
+	text-align: center;
+	}
+
+section (silver) {
+	background-color: lightgrey;
+    	border-radius: 10px;
+    	box-shadow: 2px 4px 5px;
+	margin: 0% 1%;
+    	padding-left: 10px;
+    	padding-top: 5px;
+	height: 450px;
+}
+
+section (gold) {
+	background-color: goldenrod;
+
+}
+
+.mobile-view {
+
+rm float:left;
+margin 0% 4%;
+
+}
+
+div.mobile-view > p, div.mobile-view > ul {
+margin-left: 10%;
+}
+
+silver, gold {
+padding-bottom: 2%;
+}

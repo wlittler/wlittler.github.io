@@ -27,7 +27,7 @@
   margin-bottom: 40px;
 }
 
-.highlight-a:active, .highlight-a:focus, .highlight-a:hover {
+.highlight-a:hover {
   color: rgb(3,195,4);
 }
 
@@ -474,7 +474,7 @@ body {
     }
 
     .intro {
-      background: url(../img/zen_water_rocks_3.jpg) no-repeat center scroll;
+      background: url(../img/zen_water_rocks_3.jpg) no-repeat top scroll;
     }
 
     .temp {

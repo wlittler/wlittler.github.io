@@ -22,6 +22,17 @@ $('.removeIcons').click(function(event){
     console.log("Clicky");
 });
 
+// Listener for hover on highlight img
+$('.highlight-a').on("mouseenter", function() {
+    // target child image of moused-over item and apply hover class
+    $(this).children("img").toggleClass("highlight-hover highlight");
+});
+// turn it off when the mouse leaves
+$('.highlight-a').on("mouseleave", function() {
+    // target child image of moused-over item and remove hover class
+    $(this).children("img").toggleClass("highlight-hover highlight");
+});
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {

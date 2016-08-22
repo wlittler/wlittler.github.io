@@ -27,22 +27,33 @@
   margin-bottom: 40px;
 }
 
-.highlight:active, .highlight:focus, .highlight:hover {
+.highlight-a:active, .highlight-a:focus, .highlight-a:hover {
   color: rgb(3,195,4);
 }
 
 
-.highlight {
+.highlight-a {
   color: #000;
   text-shadow: 2px 2px 2px white;
 }
 
-.highlight img {
+.highlight {
   border-radius: 50px;
   background-color: white;
   box-shadow: 2px 2px 2px white;
 }
 
+.highlight img:hover {
+  box-shadow: 2px 2px 2px rgb(3,195,4);
+  transition: all .2s ease-in-out;
+}
+
+.highlight-hover {
+  box-shadow: 2px 2px 2px rgb(3,195,4);
+  transition: all .2s ease-in-out;
+  border-radius: 50px;
+  background-color: white;
+}
 /*p > .highlight, p > .highlight:hover {
   color: inherit;
 }*/

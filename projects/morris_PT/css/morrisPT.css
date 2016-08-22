@@ -10,6 +10,7 @@
   position: absolute;
   top: 80px;
   color: black;
+  text-shadow: 1px 1px 1px white;
 }
 
 .hide {

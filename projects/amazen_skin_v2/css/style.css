@@ -107,6 +107,10 @@ p {
     left: 23.68%;
 }
 
+.product_desc {
+  margin-bottom: 10px;
+}
+
 .product {
   margin: auto;
 }

@@ -1,0 +1,335 @@
+Sampler -
+
+id: [7770916235],
+node: document.getElementById('product-component-af5f0935f53'),
+
+Zen -
+
+id: [7770647883],
+node: document.getElementById('product-component-aa66ecc4031'),
+
+Rejuvenate -
+
+id: [7771099211],
+node: document.getElementById('product-component-4b2418c21c4'),
+
+Unwind -
+
+id: [7770951307],
+node: document.getElementById('product-component-aea94a6c7c8'),
+
+Enliven -
+
+id: [7770791627],
+node: document.getElementById('product-component-160f98559e5'),
+
+Leaf Me Alone -
+
+7771109579
+'product-component-5c3a572fb4a'
+
+AmaZenFoot -
+
+7771076555
+'product-component-e639cf49fe8'
+
+Code snip -
+
+<div id='product-component-aa66ecc4031' class="product"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'amazenskin.myshopify.com',
+      apiKey: '6b81c0350c1a21ac549671707941059b',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [7770647883],
+        node: document.getElementById('product-component-aa66ecc4031'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "buttonDestination": "cart",
+    "layout": "vertical",
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "ADD TO CART",
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "text-align": "center",
+        }
+      },
+      "button": {
+        "background-color": "#78b458",
+        "font-family": "'Amatic SC', cursive",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+        ":hover": {
+          "background-color": "#6ca24f",
+        },
+        "font-weight": "normal",
+        ":focus": {
+          "background-color": "#6ca24f"
+        }
+      },
+      "variantTitle": {
+        "font-family": "'Amatic SC', cursive",
+        "color": "#333333",
+        "font-weight": "normal"
+      },
+      "buttonWithQuantity": {
+        "text-align": "center",
+        "padding-bottom": "20px",
+      },
+      "title": {
+        "font-family": "'Amatic SC', cursive",
+        "font-weight": "normal",
+        "color": "#333333"
+      },
+      "description": {
+        "color": "#333333",
+        "font-family": "'Amatic SC', cursive",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "'Amatic SC', cursive",
+        "color": "#333333",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
+      },
+      "compareAt": {
+        "font-size": "12px",
+        "font-family": "'Amatic SC', cursive",
+        "font-weight": "normal",
+        "color": "#333333"
+      }
+    },
+    "googleFonts": [
+      'Amatic SC',
+      'Amatic SC',
+      'Amatic SC',
+      'Amatic SC',
+      'Amatic SC',
+      'Amatic SC'
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "variantTitle": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "button": {
+        "background-color": "#78b458",
+        "font-family": "'Amatic SC', cursive",
+        ":hover": {
+          "background-color": "#6ca24f"
+        },
+        "font-weight": "normal",
+        ":focus": {
+          "background-color": "#6ca24f"
+        }
+      },
+      "variantTitle": {
+        "font-family": "'Amatic SC', cursive",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "'Amatic SC', cursive",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "'Amatic SC', cursive",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "'Amatic SC', cursive",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-family": "'Amatic SC', cursive",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      'Amatic SC',
+      'Amatic SC',
+      'Amatic SC',
+      'Amatic SC',
+      'Amatic SC',
+      'Amatic SC'
+    ]
+  },
+  "cart": {
+    "text": {
+      "title": "AmaZen Cart"
+    },
+    "styles": {
+      "button": {
+        "background-color": "#78b458",
+        "font-family": "'Amatic SC', cursive",
+        ":hover": {
+          "background-color": "#6ca24f"
+        },
+        "font-weight": "normal",
+        ":focus": {
+          "background-color": "#6ca24f"
+        }
+      },
+      "header": {
+        "color": "#4c4c4c"
+      },
+      "lineItems": {
+        "color": "#4c4c4c"
+      },
+      "subtotalText": {
+        "color": "#4c4c4c"
+      },
+      "subtotal": {
+        "color": "#4c4c4c"
+      },
+      "notice": {
+        "color": "#4c4c4c"
+      },
+      "currency": {
+        "color": "#4c4c4c"
+      },
+      "close": {
+        ":hover": {
+          "color": "#4c4c4c"
+        },
+        "color": "#4c4c4c"
+      },
+      "emptyCart": {
+        "color": "#4c4c4c"
+      }
+    },
+    "googleFonts": [
+      'Amatic SC'
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "'Amatic SC', cursive",
+        "background-color": "#78b458",
+        ":hover": {
+          "background-color": "#6ca24f"
+        },
+        "font-weight": "normal",
+        ":focus": {
+          "background-color": "#6ca24f"
+        }
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        }
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      'Amatic SC'
+    ]
+  },
+  "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#4c4c4c"
+      },
+      "title": {
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "color": "#4c4c4c"
+      },
+      "quantity": {
+        "color": "#4c4c4c"
+      },
+      "quantityIncrement": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      },
+      "quantityDecrement": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      },
+      "quantityInput": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      }
+    }
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "'Amatic SC', cursive",
+        "font-weight": "bold",
+        "font-size": "22px",
+      },
+      "select": {
+        "font-family": "'Amatic SC', cursive",
+        "font-weight": "bold",
+        "font-size": "22px",
+      }
+    },
+    "googleFonts": [
+      'Amatic SC',
+      'Amatic SC'
+    ]
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>

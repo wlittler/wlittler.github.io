@@ -7,9 +7,28 @@
     visibility: hidden;
 }
 
+.secret {
+  display: none;
+}
+
 body {
-    background-image: url(../img/wood_bgd.png);
     font-family: 'Amatic SC', cursive;
+}
+
+.main_bg {
+  background-image: url(../img/wood_bgd.png);
+}
+
+.holiday {
+  background-image: url(../img/candy_stripe_2.jpg);
+}
+
+.holiday_2 {
+  background-image: url(../img/snowflakes_2.jpg);
+}
+
+.bg_clip {
+  background-clip: content-box;
 }
 
 a {
@@ -33,6 +52,10 @@ a:hover {
 .amazennav>li.active>a:hover {
     background-color: rgba(138, 109, 59, 0.54);
 }
+
+/*.amazennav>li>a:hover {
+    background-color: rgba(255, 255, 255, 0.54);
+}*/
 
 .amazennav>li>a {
     margin-right: 40px;

@@ -176,6 +176,13 @@ td, option {
     font-weight: bold;
 }
 
+.logo_footer > img {
+  max-width: 100px;
+  display: inline;
+  height: auto;
+  margin: 0px 10px;
+}
+
 .logo_img {
     /*max-width: 400px;
   position: absolute;

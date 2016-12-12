@@ -146,8 +146,20 @@ p {
   margin: auto;
 }
 
+.prod_variant {
+  color: red;
+}
+
 #leaf_me_img {
     width: 100%;
+}
+
+#leaf_spacer {
+  height: 134px;
+}
+
+#cellulate_spacer {
+  height: 101px;
 }
 
 .mia_img {

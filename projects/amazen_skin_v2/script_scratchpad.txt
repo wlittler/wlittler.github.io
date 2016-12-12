@@ -1,0 +1,276 @@
+Peppermint
+
+All items are Peppermint scented
+
+Sampler 1
+
+Zen Scrub Pom Diggity Milk Bath and Rejuvenate Bath Bomb
+
+Sampler 2
+
+Cellulatte Later scrub Pom Diggity Milk Bath and Peppermint Bath Bomb
+
+
+moneyFormat: '%24%7B%7Bamount%7D%7D',
+                                            options: {
+                                                "product": {
+                                                    "buttonDestination": "cart",
+                                                    "layout": "vertical",
+                                                    "variantId": "all",
+                                                    "width": "240px",
+                                                    "contents": {
+                                                        "img": false,
+                                                        "title": false,
+                                                        "variantTitle": false,
+                                                        "price": false,
+                                                        "description": false,
+                                                        "buttonWithQuantity": true,
+                                                        "button": false,
+                                                        "quantity": false
+                                                    },
+                                                    "text": {
+                                                        "button": "ADD TO CART",
+                                                    },
+                                                    "styles": {
+                                                        "product": {
+                                                            "@media (min-width: 601px)": {
+                                                                "max-width": "100%",
+                                                                "margin-left": "0",
+                                                                "text-align": "center",
+                                                            }
+                                                        },
+                                                        "button": {
+                                                            "background-color": "#78b458",
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-size": "18px",
+                                                            "padding-top": "17px",
+                                                            "padding-bottom": "17px",
+                                                            ":hover": {
+                                                                "background-color": "#6ca24f",
+                                                            },
+                                                            "font-weight": "normal",
+                                                            ":focus": {
+                                                                "background-color": "#6ca24f"
+                                                            }
+                                                        },
+                                                        "variantTitle": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "color": "#333333",
+                                                            "font-weight": "normal"
+                                                        },
+                                                        "buttonWithQuantity": {
+                                                            "text-align": "center",
+                                                            "padding-bottom": "20px",
+                                                        },
+                                                        "title": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-weight": "normal",
+                                                            "color": "#333333"
+                                                        },
+                                                        "description": {
+                                                            "color": "#333333",
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-weight": "normal"
+                                                        },
+                                                        "price": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "color": "#333333",
+                                                            "font-weight": "normal"
+                                                        },
+                                                        "quantityInput": {
+                                                            "font-size": "18px",
+                                                            "padding-top": "17px",
+                                                            "padding-bottom": "17px",
+                                                        },
+                                                        "compareAt": {
+                                                            "font-size": "12px",
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-weight": "normal",
+                                                            "color": "#333333"
+                                                        }
+                                                    },
+                                                    "googleFonts": [
+                                                        'Amatic SC',
+                                                        'Amatic SC',
+                                                        'Amatic SC',
+                                                        'Amatic SC',
+                                                        'Amatic SC',
+                                                        'Amatic SC'
+                                                    ]
+                                                },
+                                                "modalProduct": {
+                                                    "contents": {
+                                                        "variantTitle": false,
+                                                        "buttonWithQuantity": false,
+                                                        "quantity": false
+                                                    },
+                                                    "styles": {
+                                                        "button": {
+                                                            "background-color": "#78b458",
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            ":hover": {
+                                                                "background-color": "#6ca24f"
+                                                            },
+                                                            "font-weight": "normal",
+                                                            ":focus": {
+                                                                "background-color": "#6ca24f"
+                                                            }
+                                                        },
+                                                        "variantTitle": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-weight": "normal"
+                                                        },
+                                                        "title": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-weight": "normal"
+                                                        },
+                                                        "description": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-weight": "normal"
+                                                        },
+                                                        "price": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-weight": "normal"
+                                                        },
+                                                        "compareAt": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-weight": "normal"
+                                                        }
+                                                    },
+                                                    "googleFonts": [
+                                                        'Amatic SC',
+                                                        'Amatic SC',
+                                                        'Amatic SC',
+                                                        'Amatic SC',
+                                                        'Amatic SC',
+                                                        'Amatic SC'
+                                                    ]
+                                                },
+                                                "cart": {
+                                                    "text": {
+                                                        "title": "AmaZen Cart"
+                                                    },
+                                                    "styles": {
+                                                        "button": {
+                                                            "background-color": "#78b458",
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            ":hover": {
+                                                                "background-color": "#6ca24f"
+                                                            },
+                                                            "font-weight": "normal",
+                                                            ":focus": {
+                                                                "background-color": "#6ca24f"
+                                                            }
+                                                        },
+                                                        "header": {
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "lineItems": {
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "subtotalText": {
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "subtotal": {
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "notice": {
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "currency": {
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "close": {
+                                                            ":hover": {
+                                                                "color": "#4c4c4c"
+                                                            },
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "emptyCart": {
+                                                            "color": "#4c4c4c"
+                                                        }
+                                                    },
+                                                    "googleFonts": [
+                                                        'Amatic SC'
+                                                    ]
+                                                },
+                                                "toggle": {
+                                                    "styles": {
+                                                        "toggle": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "background-color": "#78b458",
+                                                            ":hover": {
+                                                                "background-color": "#6ca24f"
+                                                            },
+                                                            "font-weight": "normal",
+                                                            ":focus": {
+                                                                "background-color": "#6ca24f"
+                                                            }
+                                                        },
+                                                        "count": {
+                                                            "color": "#ffffff",
+                                                            ":hover": {
+                                                                "color": "#ffffff"
+                                                            }
+                                                        },
+                                                        "iconPath": {
+                                                            "fill": "#ffffff"
+                                                        }
+                                                    },
+                                                    "googleFonts": [
+                                                        'Amatic SC'
+                                                    ]
+                                                },
+                                                "lineItem": {
+                                                    "styles": {
+                                                        "variantTitle": {
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "title": {
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "price": {
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "quantity": {
+                                                            "color": "#4c4c4c"
+                                                        },
+                                                        "quantityIncrement": {
+                                                            "color": "#4c4c4c",
+                                                            "border-color": "#4c4c4c"
+                                                        },
+                                                        "quantityDecrement": {
+                                                            "color": "#4c4c4c",
+                                                            "border-color": "#4c4c4c"
+                                                        },
+                                                        "quantityInput": {
+                                                            "color": "#4c4c4c",
+                                                            "border-color": "#4c4c4c"
+                                                        }
+                                                    }
+                                                },
+                                                "option": {
+                                                    "styles": {
+                                                        "label": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-weight": "bold",
+                                                            "font-size": "22px",
+                                                        },
+                                                        "select": {
+                                                            "font-family": "'Amatic SC', cursive",
+                                                            "font-weight": "bold",
+                                                            "font-size": "22px",
+                                                        }
+                                                    },
+                                                    "googleFonts": [
+                                                        'Amatic SC',
+                                                        'Amatic SC'
+                                                    ]
+                                                }
+                                            }
+                                        });
+                                    });
+                                }
+                            })();
+                            /*]]>*/
+                        </script>
